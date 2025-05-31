@@ -1,0 +1,886 @@
+[0.000000] (-) TimerEvent: {}
+[0.000882] (autodrive_msgs) JobQueued: {'identifier': 'autodrive_msgs', 'dependencies': OrderedDict()}
+[0.000913] (my_test_pkg) JobQueued: {'identifier': 'my_test_pkg', 'dependencies': OrderedDict()}
+[0.000928] (behaviour_planner_pkg) JobQueued: {'identifier': 'behaviour_planner_pkg', 'dependencies': OrderedDict([('autodrive_msgs', '/root/ros2_ws/install/autodrive_msgs')])}
+[0.000943] (autodrive_msgs) JobStarted: {'identifier': 'autodrive_msgs'}
+[0.008372] (my_test_pkg) JobStarted: {'identifier': 'my_test_pkg'}
+[0.024844] (autodrive_msgs) JobProgress: {'identifier': 'autodrive_msgs', 'progress': 'cmake'}
+[0.029249] (autodrive_msgs) JobProgress: {'identifier': 'autodrive_msgs', 'progress': 'build'}
+[0.029307] (autodrive_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_ws/build/autodrive_msgs', '--', '-j5', '-l5'], 'cwd': '/root/ros2_ws/build/autodrive_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GIT_LOCAL_CREDENTIALS', 'true'), ('USER', 'root'), ('SSH_CLIENT', '192.168.157.1 50631 22'), ('SSH_AGENT_PID', '5198'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/root/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/autodrive_msgs/lib:/root/fullstack_testing_ws/install/novatel_gps_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('OLDPWD', '/root'), ('TERM_PROGRAM_VERSION', '1.95.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/0/vscode-ipc-5a2cbf37-ffca-4815-b336-b333c5d62fd3.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install:/root/fullstack_testing_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/0/vscode-git-dd8fc300bb.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXxL88eT/agent.5197'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/behaviour_planner_pkg:/root/ros2_ws/install/autodrive_msgs:/root/ros2_ws/install/my_test_pkg:/root/fullstack_testing_ws/install/novatel_gps_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/root/ros2_ws/build/autodrive_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.157.1 50631 192.168.157.128 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/root/ros2_ws/install/behaviour_planner_pkg/lib/python3.10/site-packages:/root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages:/root/ros2_ws/install/my_test_pkg/lib/python3.10/site-packages:/root/fullstack_testing_ws/install/novatel_gps_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/autodrive_msgs:/root/fullstack_testing_ws/install/novatel_gps_msgs:/root/ros2_ws/install/behaviour_planner_pkg:/root/ros2_ws/install/my_test_pkg:/opt/ros/humble')]), 'shell': False}
+[0.099967] (-) TimerEvent: {}
+[0.200298] (-) TimerEvent: {}
+[0.266067] (autodrive_msgs) StdoutLine: {'line': b'[  0%] Built target autodrive_msgs__cpp\n'}
+[0.300574] (-) TimerEvent: {}
+[0.326206] (autodrive_msgs) StdoutLine: {'line': b'[ 12%] Built target autodrive_msgs__rosidl_generator_c\n'}
+[0.367633] (autodrive_msgs) StdoutLine: {'line': b'[ 24%] Built target autodrive_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.384951] (autodrive_msgs) StdoutLine: {'line': b'[ 36%] Built target autodrive_msgs__rosidl_typesupport_cpp\n'}
+[0.407703] (-) TimerEvent: {}
+[0.407890] (autodrive_msgs) StdoutLine: {'line': b'[ 49%] Built target autodrive_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.414829] (autodrive_msgs) StdoutLine: {'line': b'[ 62%] Built target autodrive_msgs__rosidl_typesupport_introspection_c\n'}
+[0.419270] (autodrive_msgs) StdoutLine: {'line': b'[ 75%] Built target autodrive_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.423944] (autodrive_msgs) StdoutLine: {'line': b'[ 75%] Built target ament_cmake_python_copy_autodrive_msgs\n'}
+[0.428221] (autodrive_msgs) StdoutLine: {'line': b'[ 87%] Built target autodrive_msgs__rosidl_typesupport_c\n'}
+[0.436083] (autodrive_msgs) StdoutLine: {'line': b'[ 87%] Built target autodrive_msgs\n'}
+[0.446478] (autodrive_msgs) StdoutLine: {'line': b'[ 87%] Built target autodrive_msgs__py\n'}
+[0.500640] (autodrive_msgs) StdoutLine: {'line': b'[ 99%] Built target autodrive_msgs__rosidl_generator_py\n'}
+[0.507782] (-) TimerEvent: {}
+[0.518962] (autodrive_msgs) StdoutLine: {'line': b'[ 99%] Built target autodrive_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[0.519080] (autodrive_msgs) StdoutLine: {'line': b'[ 99%] Built target autodrive_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.520692] (autodrive_msgs) StdoutLine: {'line': b'[100%] Built target autodrive_msgs__rosidl_typesupport_c__pyext\n'}
+[0.607865] (-) TimerEvent: {}
+[0.661151] (autodrive_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[0.661563] (autodrive_msgs) StdoutLine: {'line': b'writing autodrive_msgs.egg-info/PKG-INFO\n'}
+[0.661769] (autodrive_msgs) StdoutLine: {'line': b'writing dependency_links to autodrive_msgs.egg-info/dependency_links.txt\n'}
+[0.662354] (autodrive_msgs) StdoutLine: {'line': b'writing top-level names to autodrive_msgs.egg-info/top_level.txt\n'}
+[0.664052] (autodrive_msgs) StdoutLine: {'line': b"reading manifest file 'autodrive_msgs.egg-info/SOURCES.txt'\n"}
+[0.665438] (autodrive_msgs) StdoutLine: {'line': b"writing manifest file 'autodrive_msgs.egg-info/SOURCES.txt'\n"}
+[0.683468] (autodrive_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_autodrive_msgs_egg\n'}
+[0.691069] (autodrive_msgs) CommandEnded: {'returncode': 0}
+[0.691818] (autodrive_msgs) JobProgress: {'identifier': 'autodrive_msgs', 'progress': 'install'}
+[0.697392] (autodrive_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ros2_ws/build/autodrive_msgs'], 'cwd': '/root/ros2_ws/build/autodrive_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GIT_LOCAL_CREDENTIALS', 'true'), ('USER', 'root'), ('SSH_CLIENT', '192.168.157.1 50631 22'), ('SSH_AGENT_PID', '5198'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/root/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/autodrive_msgs/lib:/root/fullstack_testing_ws/install/novatel_gps_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('OLDPWD', '/root'), ('TERM_PROGRAM_VERSION', '1.95.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/0/vscode-ipc-5a2cbf37-ffca-4815-b336-b333c5d62fd3.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install:/root/fullstack_testing_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/0/vscode-git-dd8fc300bb.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXxL88eT/agent.5197'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/behaviour_planner_pkg:/root/ros2_ws/install/autodrive_msgs:/root/ros2_ws/install/my_test_pkg:/root/fullstack_testing_ws/install/novatel_gps_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/root/ros2_ws/build/autodrive_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.157.1 50631 192.168.157.128 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/root/ros2_ws/install/behaviour_planner_pkg/lib/python3.10/site-packages:/root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages:/root/ros2_ws/install/my_test_pkg/lib/python3.10/site-packages:/root/fullstack_testing_ws/install/novatel_gps_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/autodrive_msgs:/root/fullstack_testing_ws/install/novatel_gps_msgs:/root/ros2_ws/install/behaviour_planner_pkg:/root/ros2_ws/install/my_test_pkg:/opt/ros/humble')]), 'shell': False}
+[0.703777] (autodrive_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.705872] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/ament_index/resource_index/rosidl_interfaces/autodrive_msgs\n'}
+[0.706277] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs\n'}
+[0.706847] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg\n'}
+[0.707129] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/traffic_light.h\n'}
+[0.707951] (-) TimerEvent: {}
+[0.708853] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/shared_pointer_reference.h\n'}
+[0.708999] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/av_condition.h\n'}
+[0.709989] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/railroad_crossing.h\n'}
+[0.710826] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/turn_signal.h\n'}
+[0.714090] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/direction.h\n'}
+[0.714178] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/wheel_velocities.h\n'}
+[0.714226] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/speed_limit.h\n'}
+[0.714320] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/trajectory.h\n'}
+[0.714383] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/general_detection.h\n'}
+[0.714741] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/destination.h\n'}
+[0.714803] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/manoeuvre.h\n'}
+[0.714842] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/mpc_control.h\n'}
+[0.715430] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/stopline.h\n'}
+[0.715544] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/can_state.h\n'}
+[0.715735] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/traffic_sign.h\n'}
+[0.715772] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/stack_state.h\n'}
+[0.715803] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail\n'}
+[0.716377] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/dynamic_obstacle__functions.h\n'}
+[0.716485] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/general_detection__functions.h\n'}
+[0.716616] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/trajectory__functions.c\n'}
+[0.716812] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/av_condition__functions.h\n'}
+[0.717044] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/trajectory__type_support.h\n'}
+[0.718701] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/mpc_control__struct.h\n'}
+[0.719083] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/can_state__struct.h\n'}
+[0.719515] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traffic_light__functions.h\n'}
+[0.719556] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traj_point__type_support.h\n'}
+[0.719890] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/stopline__type_support.h\n'}
+[0.720388] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/location__functions.c\n'}
+[0.720599] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/mpc_control__functions.c\n'}
+[0.722196] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traffic_sign__type_support.h\n'}
+[0.722706] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/direction__functions.h\n'}
+[0.722739] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/lllc__struct.h\n'}
+[0.722897] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/dynamic_obstacle__functions.c\n'}
+[0.723169] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/destination__type_support.h\n'}
+[0.723665] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/stopline__functions.c\n'}
+[0.723701] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/stack_state__struct.h\n'}
+[0.723728] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/vehicle_state__functions.c\n'}
+[0.723750] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/vehicle_state__type_support.h\n'}
+[0.723885] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/shared_pointer_reference__functions.h\n'}
+[0.723927] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/can_state__functions.c\n'}
+[0.724262] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traj_point__struct.h\n'}
+[0.724315] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traffic_light__functions.c\n'}
+[0.724372] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/direction__struct.h\n'}
+[0.724405] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/directions__functions.h\n'}
+[0.724428] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/shared_pointer_reference__type_support.h\n'}
+[0.724458] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/can_state__type_support.h\n'}
+[0.725874] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/turn_signal__type_support.h\n'}
+[0.727323] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/detection__struct.h\n'}
+[0.727370] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/speed_limit__struct.h\n'}
+[0.727425] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/general_detection__struct.h\n'}
+[0.727657] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/stopline__struct.h\n'}
+[0.727684] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/destination__struct.h\n'}
+[0.727706] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/static_obstacle__functions.c\n'}
+[0.727796] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traffic_sign__functions.h\n'}
+[0.727863] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traj_point__functions.c\n'}
+[0.727897] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/wheel_velocities__type_support.h\n'}
+[0.727920] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/speed_limit__type_support.h\n'}
+[0.727943] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/location__struct.h\n'}
+[0.728115] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traffic_sign__functions.c\n'}
+[0.728148] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/general_detection__type_support.h\n'}
+[0.728385] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/general_detection__functions.c\n'}
+[0.728639] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/static_obstacle__struct.h\n'}
+[0.728669] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/static_obstacle__type_support.h\n'}
+[0.728704] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/destination__functions.c\n'}
+[0.728726] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/stack_state__type_support.h\n'}
+[0.728749] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traffic_light__type_support.h\n'}
+[0.728891] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/lllc__functions.h\n'}
+[0.728921] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/directions__type_support.h\n'}
+[0.728957] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/shared_pointer_reference__struct.h\n'}
+[0.728988] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/dynamic_obstacle__struct.h\n'}
+[0.729010] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/manoeuvre__type_support.h\n'}
+[0.729182] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traj_point__functions.h\n'}
+[0.729228] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/location__functions.h\n'}
+[0.729271] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/trajectory__struct.h\n'}
+[0.729307] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/vehicle_state__struct.h\n'}
+[0.729332] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/location__type_support.h\n'}
+[0.729423] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/turn_signal__functions.h\n'}
+[0.729468] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/lllc__functions.c\n'}
+[0.729508] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/wheel_velocities__struct.h\n'}
+[0.729616] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/mpc_control__type_support.h\n'}
+[0.729657] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/stopline__functions.h\n'}
+[0.729681] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/directions__functions.c\n'}
+[0.729709] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/direction__functions.c\n'}
+[0.730134] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/railroad_crossing__functions.h\n'}
+[0.730182] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/wheel_velocities__functions.c\n'}
+[0.730231] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/trajectory__functions.h\n'}
+[0.730256] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/destination__functions.h\n'}
+[0.730278] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/speed_limit__functions.h\n'}
+[0.730300] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/detection__functions.h\n'}
+[0.730322] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/railroad_crossing__functions.c\n'}
+[0.730387] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/speed_limit__functions.c\n'}
+[0.730836] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/vehicle_state__functions.h\n'}
+[0.730869] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/manoeuvre__functions.h\n'}
+[0.730891] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/av_condition__struct.h\n'}
+[0.730930] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/mpc_control__functions.h\n'}
+[0.730985] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/turn_signal__functions.c\n'}
+[0.731010] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/manoeuvre__struct.h\n'}
+[0.731077] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/railroad_crossing__type_support.h\n'}
+[0.731115] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/railroad_crossing__struct.h\n'}
+[0.731139] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/detection__type_support.h\n'}
+[0.731161] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/turn_signal__struct.h\n'}
+[0.731183] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traffic_sign__struct.h\n'}
+[0.731218] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/manoeuvre__functions.c\n'}
+[0.731244] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/directions__struct.h\n'}
+[0.731267] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/shared_pointer_reference__functions.c\n'}
+[0.731288] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/direction__type_support.h\n'}
+[0.731310] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/can_state__functions.h\n'}
+[0.731332] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/wheel_velocities__functions.h\n'}
+[0.732476] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/static_obstacle__functions.h\n'}
+[0.732591] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/stack_state__functions.c\n'}
+[0.732706] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/dynamic_obstacle__type_support.h\n'}
+[0.732742] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/lllc__type_support.h\n'}
+[0.732766] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/stack_state__functions.h\n'}
+[0.732788] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/detection__functions.c\n'}
+[0.732827] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traffic_light__struct.h\n'}
+[0.732850] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/av_condition__type_support.h\n'}
+[0.732872] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/av_condition__functions.c\n'}
+[0.732903] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/location.h\n'}
+[0.732935] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/directions.h\n'}
+[0.732976] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/dynamic_obstacle.h\n'}
+[0.733034] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/traj_point.h\n'}
+[0.733059] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/lllc.h\n'}
+[0.733095] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.733137] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/static_obstacle.h\n'}
+[0.733166] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/vehicle_state.h\n'}
+[0.733188] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detection.h\n'}
+[0.733210] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv\n'}
+[0.733234] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/get_id.h\n'}
+[0.733255] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/set_destination.h\n'}
+[0.733281] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/attribute_dictionary.h\n'}
+[0.733304] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/blocked_lanelets.h\n'}
+[0.733326] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/set_location.h\n'}
+[0.733348] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/set_bag_name.h\n'}
+[0.733369] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail\n'}
+[0.733863] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_location__struct.h\n'}
+[0.733956] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/get_id__struct.h\n'}
+[0.733989] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/get_id__functions.h\n'}
+[0.734242] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/attribute_dictionary__struct.h\n'}
+[0.734386] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/get_id__functions.c\n'}
+[0.734412] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_bag_name__struct.h\n'}
+[0.734445] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/blocked_lanelets__struct.h\n'}
+[0.734487] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/reroute__functions.h\n'}
+[0.734525] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/reroute__type_support.h\n'}
+[0.734548] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/get_id__type_support.h\n'}
+[0.734570] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/reroute__functions.c\n'}
+[0.734592] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/blocked_lanelets__functions.h\n'}
+[0.734615] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_bag_name__functions.h\n'}
+[0.734643] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/reroute__struct.h\n'}
+[0.734664] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_destination__functions.c\n'}
+[0.734702] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/lanelet_attribute__struct.h\n'}
+[0.734726] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_bag_name__type_support.h\n'}
+[0.734746] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/lanelet_attribute__functions.h\n'}
+[0.734765] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_location__functions.h\n'}
+[0.734787] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/attribute_dictionary__functions.h\n'}
+[0.734807] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/blocked_lanelets__type_support.h\n'}
+[0.734827] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_location__functions.c\n'}
+[0.734859] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_destination__struct.h\n'}
+[0.734881] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/attribute_dictionary__type_support.h\n'}
+[0.734900] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/blocked_lanelets__functions.c\n'}
+[0.734920] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_destination__type_support.h\n'}
+[0.734940] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/lanelet_attribute__functions.c\n'}
+[0.734959] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_bag_name__functions.c\n'}
+[0.736074] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/attribute_dictionary__functions.c\n'}
+[0.736155] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_destination__functions.h\n'}
+[0.736195] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/lanelet_attribute__type_support.h\n'}
+[0.736223] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_location__type_support.h\n'}
+[0.736246] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/reroute.h\n'}
+[0.736268] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/lanelet_attribute.h\n'}
+[0.736344] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/environment/library_path.sh\n'}
+[0.736396] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/environment/library_path.dsv\n'}
+[0.736744] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/lib/libautodrive_msgs__rosidl_generator_c.so\n'}
+[0.736823] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs\n'}
+[0.737080] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg\n'}
+[0.737287] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail\n'}
+[0.739132] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/detection__rosidl_typesupport_fastrtps_c.h\n'}
+[0.739199] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/stack_state__rosidl_typesupport_fastrtps_c.h\n'}
+[0.739237] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/direction__rosidl_typesupport_fastrtps_c.h\n'}
+[0.739274] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/static_obstacle__rosidl_typesupport_fastrtps_c.h\n'}
+[0.739376] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traj_point__rosidl_typesupport_fastrtps_c.h\n'}
+[0.739512] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/wheel_velocities__rosidl_typesupport_fastrtps_c.h\n'}
+[0.739572] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/destination__rosidl_typesupport_fastrtps_c.h\n'}
+[0.739603] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/lllc__rosidl_typesupport_fastrtps_c.h\n'}
+[0.739631] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/dynamic_obstacle__rosidl_typesupport_fastrtps_c.h\n'}
+[0.739657] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/can_state__rosidl_typesupport_fastrtps_c.h\n'}
+[0.739688] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/shared_pointer_reference__rosidl_typesupport_fastrtps_c.h\n'}
+[0.739716] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/mpc_control__rosidl_typesupport_fastrtps_c.h\n'}
+[0.739738] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/railroad_crossing__rosidl_typesupport_fastrtps_c.h\n'}
+[0.739775] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/general_detection__rosidl_typesupport_fastrtps_c.h\n'}
+[0.739851] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traffic_light__rosidl_typesupport_fastrtps_c.h\n'}
+[0.739951] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/vehicle_state__rosidl_typesupport_fastrtps_c.h\n'}
+[0.739996] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traffic_sign__rosidl_typesupport_fastrtps_c.h\n'}
+[0.740029] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/location__rosidl_typesupport_fastrtps_c.h\n'}
+[0.740076] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/av_condition__rosidl_typesupport_fastrtps_c.h\n'}
+[0.740229] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/trajectory__rosidl_typesupport_fastrtps_c.h\n'}
+[0.740288] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/speed_limit__rosidl_typesupport_fastrtps_c.h\n'}
+[0.740376] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/turn_signal__rosidl_typesupport_fastrtps_c.h\n'}
+[0.740419] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/stopline__rosidl_typesupport_fastrtps_c.h\n'}
+[0.740461] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/manoeuvre__rosidl_typesupport_fastrtps_c.h\n'}
+[0.740501] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/directions__rosidl_typesupport_fastrtps_c.h\n'}
+[0.740548] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.740573] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv\n'}
+[0.740595] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail\n'}
+[0.740648] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/attribute_dictionary__rosidl_typesupport_fastrtps_c.h\n'}
+[0.740702] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_destination__rosidl_typesupport_fastrtps_c.h\n'}
+[0.740742] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_location__rosidl_typesupport_fastrtps_c.h\n'}
+[0.740772] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_bag_name__rosidl_typesupport_fastrtps_c.h\n'}
+[0.740794] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/get_id__rosidl_typesupport_fastrtps_c.h\n'}
+[0.740821] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/lanelet_attribute__rosidl_typesupport_fastrtps_c.h\n'}
+[0.740869] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/blocked_lanelets__rosidl_typesupport_fastrtps_c.h\n'}
+[0.742285] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/reroute__rosidl_typesupport_fastrtps_c.h\n'}
+[0.743840] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/lib/libautodrive_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.743971] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs\n'}
+[0.744001] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg\n'}
+[0.744030] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/trajectory.hpp\n'}
+[0.744136] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/mpc_control.hpp\n'}
+[0.744294] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/traj_point.hpp\n'}
+[0.744562] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/manoeuvre.hpp\n'}
+[0.744640] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/lllc.hpp\n'}
+[0.744682] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/destination.hpp\n'}
+[0.744761] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/directions.hpp\n'}
+[0.744845] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/av_condition.hpp\n'}
+[0.744933] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/can_state.hpp\n'}
+[0.744982] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/speed_limit.hpp\n'}
+[0.745032] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/turn_signal.hpp\n'}
+[0.745058] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/railroad_crossing.hpp\n'}
+[0.745085] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/traffic_sign.hpp\n'}
+[0.745134] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/static_obstacle.hpp\n'}
+[0.745173] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/stopline.hpp\n'}
+[0.745226] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail\n'}
+[0.745269] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/trajectory__traits.hpp\n'}
+[0.745326] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/general_detection__struct.hpp\n'}
+[0.745353] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/direction__struct.hpp\n'}
+[0.745411] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/can_state__traits.hpp\n'}
+[0.745492] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/stack_state__builder.hpp\n'}
+[0.745515] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traj_point__traits.hpp\n'}
+[0.745537] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/destination__builder.hpp\n'}
+[0.745570] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/wheel_velocities__struct.hpp\n'}
+[0.745595] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traffic_light__struct.hpp\n'}
+[0.745665] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/stack_state__type_support.hpp\n'}
+[0.745798] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/trajectory__type_support.hpp\n'}
+[0.745872] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/can_state__builder.hpp\n'}
+[0.745896] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/railroad_crossing__traits.hpp\n'}
+[0.745921] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/static_obstacle__traits.hpp\n'}
+[0.745943] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/stack_state__struct.hpp\n'}
+[0.745965] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/general_detection__builder.hpp\n'}
+[0.745988] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/mpc_control__struct.hpp\n'}
+[0.746009] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/directions__traits.hpp\n'}
+[0.746064] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/direction__traits.hpp\n'}
+[0.746091] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/dynamic_obstacle__struct.hpp\n'}
+[0.746118] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/speed_limit__traits.hpp\n'}
+[0.746140] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/shared_pointer_reference__traits.hpp\n'}
+[0.746224] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/stopline__type_support.hpp\n'}
+[0.746360] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/lllc__builder.hpp\n'}
+[0.746408] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/stopline__builder.hpp\n'}
+[0.746528] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/manoeuvre__type_support.hpp\n'}
+[0.746651] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/shared_pointer_reference__struct.hpp\n'}
+[0.746763] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/static_obstacle__builder.hpp\n'}
+[0.746881] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/direction__type_support.hpp\n'}
+[0.746907] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/turn_signal__type_support.hpp\n'}
+[0.746932] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/wheel_velocities__builder.hpp\n'}
+[0.747020] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/static_obstacle__type_support.hpp\n'}
+[0.747061] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/can_state__type_support.hpp\n'}
+[0.747093] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/stopline__struct.hpp\n'}
+[0.747117] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/detection__builder.hpp\n'}
+[0.747151] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traffic_sign__builder.hpp\n'}
+[0.747186] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/directions__builder.hpp\n'}
+[0.747248] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/vehicle_state__builder.hpp\n'}
+[0.747271] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/manoeuvre__traits.hpp\n'}
+[0.747305] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/detection__struct.hpp\n'}
+[0.747331] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/wheel_velocities__traits.hpp\n'}
+[0.747353] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/location__builder.hpp\n'}
+[0.747383] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/dynamic_obstacle__traits.hpp\n'}
+[0.747464] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/lllc__traits.hpp\n'}
+[0.747535] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/shared_pointer_reference__type_support.hpp\n'}
+[0.747651] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traj_point__builder.hpp\n'}
+[0.747678] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traffic_light__type_support.hpp\n'}
+[0.747701] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/turn_signal__builder.hpp\n'}
+[0.747724] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/lllc__struct.hpp\n'}
+[0.747746] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/detection__type_support.hpp\n'}
+[0.747768] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/vehicle_state__traits.hpp\n'}
+[0.747790] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/manoeuvre__struct.hpp\n'}
+[0.747812] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traffic_light__traits.hpp\n'}
+[0.747841] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/location__struct.hpp\n'}
+[0.747864] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/trajectory__builder.hpp\n'}
+[0.747886] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/railroad_crossing__struct.hpp\n'}
+[0.747911] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/can_state__struct.hpp\n'}
+[0.747933] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/vehicle_state__type_support.hpp\n'}
+[0.747956] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/speed_limit__type_support.hpp\n'}
+[0.747978] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/static_obstacle__struct.hpp\n'}
+[0.748000] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traffic_light__builder.hpp\n'}
+[0.748022] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/manoeuvre__builder.hpp\n'}
+[0.748043] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/detection__traits.hpp\n'}
+[0.748065] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traffic_sign__struct.hpp\n'}
+[0.748088] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/directions__type_support.hpp\n'}
+[0.748110] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/av_condition__traits.hpp\n'}
+[0.748132] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/vehicle_state__struct.hpp\n'}
+[0.748153] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traffic_sign__traits.hpp\n'}
+[0.748175] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/av_condition__struct.hpp\n'}
+[0.748197] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/direction__builder.hpp\n'}
+[0.748218] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traffic_sign__type_support.hpp\n'}
+[0.748238] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traj_point__struct.hpp\n'}
+[0.748259] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/lllc__type_support.hpp\n'}
+[0.748284] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/directions__struct.hpp\n'}
+[0.748306] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/dynamic_obstacle__builder.hpp\n'}
+[0.748328] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/destination__struct.hpp\n'}
+[0.748350] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/stopline__traits.hpp\n'}
+[0.748371] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/railroad_crossing__type_support.hpp\n'}
+[0.748394] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/mpc_control__type_support.hpp\n'}
+[0.748416] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/mpc_control__traits.hpp\n'}
+[0.748438] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/destination__traits.hpp\n'}
+[0.748461] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/turn_signal__struct.hpp\n'}
+[0.748482] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/wheel_velocities__type_support.hpp\n'}
+[0.748504] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/av_condition__type_support.hpp\n'}
+[0.748525] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/stack_state__traits.hpp\n'}
+[0.748554] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/trajectory__struct.hpp\n'}
+[0.748577] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/location__type_support.hpp\n'}
+[0.748598] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/destination__type_support.hpp\n'}
+[0.748620] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traj_point__type_support.hpp\n'}
+[0.748642] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/shared_pointer_reference__builder.hpp\n'}
+[0.748661] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/railroad_crossing__builder.hpp\n'}
+[0.748681] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/av_condition__builder.hpp\n'}
+[0.748700] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/dynamic_obstacle__type_support.hpp\n'}
+[0.748719] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/mpc_control__builder.hpp\n'}
+[0.748739] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/location__traits.hpp\n'}
+[0.748766] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/general_detection__traits.hpp\n'}
+[0.748794] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/speed_limit__builder.hpp\n'}
+[0.748831] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/speed_limit__struct.hpp\n'}
+[0.748861] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/turn_signal__traits.hpp\n'}
+[0.748945] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/general_detection__type_support.hpp\n'}
+[0.749030] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/shared_pointer_reference.hpp\n'}
+[0.749088] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detection.hpp\n'}
+[0.749111] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/traffic_light.hpp\n'}
+[0.749133] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/general_detection.hpp\n'}
+[0.749179] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/location.hpp\n'}
+[0.749204] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/dynamic_obstacle.hpp\n'}
+[0.749226] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.749248] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/wheel_velocities.hpp\n'}
+[0.749270] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/vehicle_state.hpp\n'}
+[0.749292] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/stack_state.hpp\n'}
+[0.749313] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/direction.hpp\n'}
+[0.749335] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv\n'}
+[0.749358] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/attribute_dictionary.hpp\n'}
+[0.749418] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/lanelet_attribute.hpp\n'}
+[0.749442] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/set_location.hpp\n'}
+[0.749464] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail\n'}
+[0.749486] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_destination__traits.hpp\n'}
+[0.749507] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/get_id__traits.hpp\n'}
+[0.749540] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/get_id__type_support.hpp\n'}
+[0.749571] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/reroute__type_support.hpp\n'}
+[0.749604] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/attribute_dictionary__type_support.hpp\n'}
+[0.749689] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/get_id__builder.hpp\n'}
+[0.749769] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_bag_name__type_support.hpp\n'}
+[0.749816] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_destination__builder.hpp\n'}
+[0.749839] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_bag_name__builder.hpp\n'}
+[0.749862] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_bag_name__traits.hpp\n'}
+[0.749884] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/attribute_dictionary__traits.hpp\n'}
+[0.749905] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/blocked_lanelets__type_support.hpp\n'}
+[0.749928] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/reroute__builder.hpp\n'}
+[0.749949] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/lanelet_attribute__struct.hpp\n'}
+[0.749971] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/lanelet_attribute__traits.hpp\n'}
+[0.749993] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/lanelet_attribute__builder.hpp\n'}
+[0.750014] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_location__builder.hpp\n'}
+[0.750036] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/blocked_lanelets__struct.hpp\n'}
+[0.750058] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_destination__struct.hpp\n'}
+[0.750090] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/blocked_lanelets__builder.hpp\n'}
+[0.750115] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_location__traits.hpp\n'}
+[0.750136] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_location__struct.hpp\n'}
+[0.750158] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/reroute__struct.hpp\n'}
+[0.750180] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/reroute__traits.hpp\n'}
+[0.750202] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/lanelet_attribute__type_support.hpp\n'}
+[0.750223] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_location__type_support.hpp\n'}
+[0.750253] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/attribute_dictionary__builder.hpp\n'}
+[0.750279] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/get_id__struct.hpp\n'}
+[0.750302] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/attribute_dictionary__struct.hpp\n'}
+[0.750324] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_destination__type_support.hpp\n'}
+[0.750347] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_bag_name__struct.hpp\n'}
+[0.750369] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/blocked_lanelets__traits.hpp\n'}
+[0.750392] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/reroute.hpp\n'}
+[0.750414] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/get_id.hpp\n'}
+[0.750436] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/blocked_lanelets.hpp\n'}
+[0.750508] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/set_destination.hpp\n'}
+[0.750581] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/set_bag_name.hpp\n'}
+[0.750604] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs\n'}
+[0.750627] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg\n'}
+[0.750649] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail\n'}
+[0.750671] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/stack_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.750693] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/shared_pointer_reference__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.750716] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traj_point__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.750737] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/manoeuvre__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.750760] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/lllc__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.750782] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/stopline__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.750803] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/detection__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.750825] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/trajectory__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.750846] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/railroad_crossing__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.750868] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/mpc_control__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.750890] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/speed_limit__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.750913] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/av_condition__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.750937] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/directions__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.750958] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/dds_fastrtps\n'}
+[0.750979] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traffic_sign__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.750998] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/can_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.751018] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/direction__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.751037] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/vehicle_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.751056] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/turn_signal__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.751076] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traffic_light__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.751096] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/general_detection__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.751116] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/location__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.751136] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/dynamic_obstacle__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.751155] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/static_obstacle__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.751176] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/destination__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.751195] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/wheel_velocities__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.751215] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.752021] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv\n'}
+[0.752101] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail\n'}
+[0.752124] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_location__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.752146] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/attribute_dictionary__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.752168] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_destination__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.752190] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_bag_name__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.752214] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/dds_fastrtps\n'}
+[0.752324] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/get_id__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.752357] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/blocked_lanelets__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.752405] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/reroute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.752428] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/lanelet_attribute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.752977] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/lib/libautodrive_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.753159] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs\n'}
+[0.753312] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg\n'}
+[0.753440] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.753488] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail\n'}
+[0.753522] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/wheel_velocities__type_support.c\n'}
+[0.753551] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/vehicle_state__type_support.c\n'}
+[0.753574] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/lllc__type_support.c\n'}
+[0.753601] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/manoeuvre__rosidl_typesupport_introspection_c.h\n'}
+[0.753677] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traffic_light__type_support.c\n'}
+[0.753782] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/can_state__rosidl_typesupport_introspection_c.h\n'}
+[0.753828] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/dynamic_obstacle__type_support.c\n'}
+[0.753852] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/lllc__rosidl_typesupport_introspection_c.h\n'}
+[0.753873] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/shared_pointer_reference__rosidl_typesupport_introspection_c.h\n'}
+[0.753897] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/detection__rosidl_typesupport_introspection_c.h\n'}
+[0.753918] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/trajectory__type_support.c\n'}
+[0.753944] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/turn_signal__rosidl_typesupport_introspection_c.h\n'}
+[0.753967] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/mpc_control__rosidl_typesupport_introspection_c.h\n'}
+[0.753989] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/trajectory__rosidl_typesupport_introspection_c.h\n'}
+[0.754010] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/direction__type_support.c\n'}
+[0.754032] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/location__type_support.c\n'}
+[0.754053] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traffic_sign__rosidl_typesupport_introspection_c.h\n'}
+[0.754075] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/stopline__type_support.c\n'}
+[0.754097] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/manoeuvre__type_support.c\n'}
+[0.754118] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traffic_sign__type_support.c\n'}
+[0.754140] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/detection__type_support.c\n'}
+[0.755360] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/dynamic_obstacle__rosidl_typesupport_introspection_c.h\n'}
+[0.755479] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/stopline__rosidl_typesupport_introspection_c.h\n'}
+[0.755526] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traffic_light__rosidl_typesupport_introspection_c.h\n'}
+[0.755549] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/directions__type_support.c\n'}
+[0.755573] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/shared_pointer_reference__type_support.c\n'}
+[0.755605] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traj_point__type_support.c\n'}
+[0.755630] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/railroad_crossing__type_support.c\n'}
+[0.755652] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/location__rosidl_typesupport_introspection_c.h\n'}
+[0.755675] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/railroad_crossing__rosidl_typesupport_introspection_c.h\n'}
+[0.755722] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/destination__type_support.c\n'}
+[0.755794] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/wheel_velocities__rosidl_typesupport_introspection_c.h\n'}
+[0.755864] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/destination__rosidl_typesupport_introspection_c.h\n'}
+[0.755929] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/speed_limit__type_support.c\n'}
+[0.755951] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/direction__rosidl_typesupport_introspection_c.h\n'}
+[0.755973] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/general_detection__type_support.c\n'}
+[0.755995] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traj_point__rosidl_typesupport_introspection_c.h\n'}
+[0.756017] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/can_state__type_support.c\n'}
+[0.756039] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/turn_signal__type_support.c\n'}
+[0.756060] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/av_condition__type_support.c\n'}
+[0.756086] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/vehicle_state__rosidl_typesupport_introspection_c.h\n'}
+[0.756126] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/static_obstacle__rosidl_typesupport_introspection_c.h\n'}
+[0.756214] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/static_obstacle__type_support.c\n'}
+[0.756258] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/stack_state__rosidl_typesupport_introspection_c.h\n'}
+[0.756280] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/stack_state__type_support.c\n'}
+[0.756302] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/speed_limit__rosidl_typesupport_introspection_c.h\n'}
+[0.756324] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/directions__rosidl_typesupport_introspection_c.h\n'}
+[0.756345] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/av_condition__rosidl_typesupport_introspection_c.h\n'}
+[0.756367] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/general_detection__rosidl_typesupport_introspection_c.h\n'}
+[0.756390] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/mpc_control__type_support.c\n'}
+[0.756411] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv\n'}
+[0.756433] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail\n'}
+[0.756455] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_location__rosidl_typesupport_introspection_c.h\n'}
+[0.756477] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/reroute__rosidl_typesupport_introspection_c.h\n'}
+[0.756500] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_destination__type_support.c\n'}
+[0.756522] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/blocked_lanelets__type_support.c\n'}
+[0.756544] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_location__type_support.c\n'}
+[0.756566] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/attribute_dictionary__type_support.c\n'}
+[0.756588] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/get_id__rosidl_typesupport_introspection_c.h\n'}
+[0.756610] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/blocked_lanelets__rosidl_typesupport_introspection_c.h\n'}
+[0.756633] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/attribute_dictionary__rosidl_typesupport_introspection_c.h\n'}
+[0.756656] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/lanelet_attribute__rosidl_typesupport_introspection_c.h\n'}
+[0.756678] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_destination__rosidl_typesupport_introspection_c.h\n'}
+[0.756708] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/get_id__type_support.c\n'}
+[0.756731] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/reroute__type_support.c\n'}
+[0.756753] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_bag_name__type_support.c\n'}
+[0.756775] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_bag_name__rosidl_typesupport_introspection_c.h\n'}
+[0.756796] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/lanelet_attribute__type_support.c\n'}
+[0.756818] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/lib/libautodrive_msgs__rosidl_typesupport_introspection_c.so\n'}
+[0.758502] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/lib/libautodrive_msgs__rosidl_typesupport_c.so\n'}
+[0.758568] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs\n'}
+[0.758936] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg\n'}
+[0.759338] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail\n'}
+[0.759433] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/stopline__type_support.cpp\n'}
+[0.759543] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/vehicle_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.759608] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traffic_sign__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.759633] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/location__type_support.cpp\n'}
+[0.759656] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/general_detection__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.759678] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traj_point__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.759701] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traj_point__type_support.cpp\n'}
+[0.759723] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/directions__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.759746] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/stack_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.759769] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/general_detection__type_support.cpp\n'}
+[0.759834] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/manoeuvre__type_support.cpp\n'}
+[0.759901] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/trajectory__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.759965] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/static_obstacle__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.759994] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/turn_signal__type_support.cpp\n'}
+[0.760024] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traffic_light__type_support.cpp\n'}
+[0.760047] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/shared_pointer_reference__type_support.cpp\n'}
+[0.760071] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/location__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.760093] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/stopline__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.760114] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/detection__type_support.cpp\n'}
+[0.760136] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/dynamic_obstacle__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.760157] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/lllc__type_support.cpp\n'}
+[0.760179] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/stack_state__type_support.cpp\n'}
+[0.760233] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/directions__type_support.cpp\n'}
+[0.760299] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/lllc__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.760368] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/turn_signal__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.760393] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/railroad_crossing__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.760415] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/speed_limit__type_support.cpp\n'}
+[0.760440] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/destination__type_support.cpp\n'}
+[0.760461] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/static_obstacle__type_support.cpp\n'}
+[0.760483] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/shared_pointer_reference__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.760505] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/dynamic_obstacle__type_support.cpp\n'}
+[0.760528] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/speed_limit__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.760577] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/detection__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.760601] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/can_state__type_support.cpp\n'}
+[0.760623] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/destination__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.760645] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/av_condition__type_support.cpp\n'}
+[0.760666] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/direction__type_support.cpp\n'}
+[0.760688] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traffic_sign__type_support.cpp\n'}
+[0.760709] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/wheel_velocities__type_support.cpp\n'}
+[0.760731] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/vehicle_state__type_support.cpp\n'}
+[0.760769] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/mpc_control__type_support.cpp\n'}
+[0.760794] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traffic_light__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.760816] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/direction__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.760839] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/railroad_crossing__type_support.cpp\n'}
+[0.760862] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/manoeuvre__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.760883] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/can_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.760905] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/av_condition__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.760927] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/trajectory__type_support.cpp\n'}
+[0.760962] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/mpc_control__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.760987] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/wheel_velocities__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.761008] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv\n'}
+[0.762106] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail\n'}
+[0.762407] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_destination__type_support.cpp\n'}
+[0.762528] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/attribute_dictionary__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.762575] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/blocked_lanelets__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.762599] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/attribute_dictionary__type_support.cpp\n'}
+[0.762626] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_location__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.762650] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/reroute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.762672] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/get_id__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.762741] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_bag_name__type_support.cpp\n'}
+[0.762766] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/blocked_lanelets__type_support.cpp\n'}
+[0.762787] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/reroute__type_support.cpp\n'}
+[0.762817] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/lanelet_attribute__type_support.cpp\n'}
+[0.762842] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_destination__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.762874] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/lanelet_attribute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.762916] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_location__type_support.cpp\n'}
+[0.762938] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_bag_name__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.762960] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/get_id__type_support.cpp\n'}
+[0.763494] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/lib/libautodrive_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[0.763823] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/lib/libautodrive_msgs__rosidl_typesupport_cpp.so\n'}
+[0.763914] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/environment/pythonpath.sh\n'}
+[0.763974] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/environment/pythonpath.dsv\n'}
+[0.764038] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs-0.0.0-py3.10.egg-info\n'}
+[0.764064] (autodrive_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.767329] (autodrive_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.772514] (my_test_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_test_pkg', 'build', '--build-base', '/root/ros2_ws/build/my_test_pkg/build', 'install', '--record', '/root/ros2_ws/build/my_test_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/root/ros2_ws/src/my_test_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'GIT_LOCAL_CREDENTIALS': 'true', 'USER': 'root', 'SSH_CLIENT': '192.168.157.1 50631 22', 'SSH_AGENT_PID': '5198', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/root/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/root/ros2_ws/install/autodrive_msgs/lib:/root/fullstack_testing_ws/install/novatel_gps_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/root/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/root', 'OLDPWD': '/root', 'TERM_PROGRAM_VERSION': '1.95.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/0/vscode-ipc-5a2cbf37-ffca-4815-b336-b333c5d62fd3.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/0/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/root/ros2_ws/install:/root/fullstack_testing_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/root/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/0', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/0/vscode-git-dd8fc300bb.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/ssh-XXXXXXxL88eT/agent.5197', 'AMENT_PREFIX_PATH': '/root/ros2_ws/install/behaviour_planner_pkg:/root/ros2_ws/install/autodrive_msgs:/root/ros2_ws/install/my_test_pkg:/root/fullstack_testing_ws/install/novatel_gps_msgs:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/root/ros2_ws/build/my_test_pkg', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.157.1 50631 192.168.157.128 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/root/ros2_ws/build/my_test_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/my_test_pkg/lib/python3.10/site-packages:/root/ros2_ws/install/behaviour_planner_pkg/lib/python3.10/site-packages:/root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages:/root/ros2_ws/install/my_test_pkg/lib/python3.10/site-packages:/root/fullstack_testing_ws/install/novatel_gps_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/ros2_ws/install/autodrive_msgs:/root/fullstack_testing_ws/install/novatel_gps_msgs'}, 'shell': False}
+[0.773330] (autodrive_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.773389] (autodrive_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.773432] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs\n'}
+[0.773652] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/autodrive_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[0.773701] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/_autodrive_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[0.773733] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg\n'}
+[0.773756] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_wheel_velocities.py\n'}
+[0.774049] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_trajectory_s.c\n'}
+[0.774088] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_shared_pointer_reference_s.c\n'}
+[0.774114] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_general_detection_s.c\n'}
+[0.774136] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_traj_point_s.c\n'}
+[0.774161] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_destination_s.c\n'}
+[0.774184] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_lllc.py\n'}
+[0.774207] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_directions.py\n'}
+[0.774228] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_destination.py\n'}
+[0.774259] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_lllc_s.c\n'}
+[0.774284] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_traffic_sign_s.c\n'}
+[0.774305] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_manoeuvre_s.c\n'}
+[0.774327] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_general_detection.py\n'}
+[0.774349] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_stopline.py\n'}
+[0.774371] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_shared_pointer_reference.py\n'}
+[0.774393] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_railroad_crossing_s.c\n'}
+[0.774414] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_av_condition_s.c\n'}
+[0.774436] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_speed_limit.py\n'}
+[0.774458] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_turn_signal.py\n'}
+[0.774481] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_dynamic_obstacle.py\n'}
+[0.774502] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_stack_state.py\n'}
+[0.774524] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_wheel_velocities_s.c\n'}
+[0.774547] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/__init__.py\n'}
+[0.774569] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_speed_limit_s.c\n'}
+[0.774591] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_location.py\n'}
+[0.774613] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_direction_s.c\n'}
+[0.774634] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_railroad_crossing.py\n'}
+[0.774656] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_detection.py\n'}
+[0.774677] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_static_obstacle_s.c\n'}
+[0.774698] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_direction.py\n'}
+[0.774720] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_static_obstacle.py\n'}
+[0.774742] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_av_condition.py\n'}
+[0.774763] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_trajectory.py\n'}
+[0.774785] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_location_s.c\n'}
+[0.774806] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_traffic_light.py\n'}
+[0.774827] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_traffic_sign.py\n'}
+[0.774849] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_traffic_light_s.c\n'}
+[0.774870] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_mpc_control_s.c\n'}
+[0.774892] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_can_state.py\n'}
+[0.774916] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_stack_state_s.c\n'}
+[0.774938] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_vehicle_state.py\n'}
+[0.774959] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_manoeuvre.py\n'}
+[0.774981] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_stopline_s.c\n'}
+[0.775002] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_traj_point.py\n'}
+[0.775023] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_vehicle_state_s.c\n'}
+[0.775044] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_dynamic_obstacle_s.c\n'}
+[0.775068] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_directions_s.c\n'}
+[0.775090] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_mpc_control.py\n'}
+[0.775111] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_can_state_s.c\n'}
+[0.775132] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_turn_signal_s.c\n'}
+[0.775228] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_detection_s.c\n'}
+[0.775281] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/_autodrive_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.775317] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/autodrive_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[0.775357] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/__init__.py\n'}
+[0.775383] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/libautodrive_msgs__rosidl_generator_py.so\n'}
+[0.775415] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/srv\n'}
+[0.775450] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/srv/_set_destination_s.c\n'}
+[0.775520] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/srv/_reroute_s.c\n'}
+[0.775583] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/srv/_blocked_lanelets.py\n'}
+[0.775629] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/srv/_lanelet_attribute.py\n'}
+[0.775662] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/srv/_set_bag_name_s.c\n'}
+[0.775684] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/srv/_get_id.py\n'}
+[0.775717] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/srv/_set_destination.py\n'}
+[0.775741] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/srv/__init__.py\n'}
+[0.775763] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/srv/_get_id_s.c\n'}
+[0.775785] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/srv/_lanelet_attribute_s.c\n'}
+[0.775806] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/srv/_set_location.py\n'}
+[0.775838] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/srv/_reroute.py\n'}
+[0.775863] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/srv/_set_location_s.c\n'}
+[0.775884] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/srv/_attribute_dictionary.py\n'}
+[0.775906] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/srv/_blocked_lanelets_s.c\n'}
+[0.775931] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/srv/_attribute_dictionary_s.c\n'}
+[0.775953] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/srv/_set_bag_name.py\n'}
+[0.775974] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/_autodrive_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.775997] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/autodrive_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[0.796323] (autodrive_msgs) StdoutLine: {'line': b"Listing '/root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs'...\n"}
+[0.796420] (autodrive_msgs) StdoutLine: {'line': b"Listing '/root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg'...\n"}
+[0.796449] (autodrive_msgs) StdoutLine: {'line': b"Listing '/root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/srv'...\n"}
+[0.800930] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/autodrive_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[0.802439] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/autodrive_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[0.803093] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/autodrive_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[0.803537] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/lib/libautodrive_msgs__rosidl_generator_py.so\n'}
+[0.803798] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/msg/Detection.idl\n'}
+[0.803851] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/msg/GeneralDetection.idl\n'}
+[0.803903] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/msg/TrafficLight.idl\n'}
+[0.803948] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/msg/Location.idl\n'}
+[0.803983] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/msg/RailroadCrossing.idl\n'}
+[0.805465] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/msg/Stopline.idl\n'}
+[0.805508] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/msg/Trajectory.idl\n'}
+[0.805541] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/msg/TrajPoint.idl\n'}
+[0.805575] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/msg/SpeedLimit.idl\n'}
+[0.805613] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/msg/DynamicObstacle.idl\n'}
+[0.805753] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/msg/TrafficSign.idl\n'}
+[0.805785] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/msg/VehicleState.idl\n'}
+[0.805829] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/msg/StaticObstacle.idl\n'}
+[0.805874] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/msg/Destination.idl\n'}
+[0.805915] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/msg/SharedPointerReference.idl\n'}
+[0.805952] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/msg/WheelVelocities.idl\n'}
+[0.805986] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/msg/MPCControl.idl\n'}
+[0.806013] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/srv/SetDestination.idl\n'}
+[0.806042] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/srv/SetLocation.idl\n'}
+[0.806078] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/srv/Reroute.idl\n'}
+[0.806113] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/srv/LaneletAttribute.idl\n'}
+[0.806139] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/srv/AttributeDictionary.idl\n'}
+[0.806169] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/srv/GetId.idl\n'}
+[0.806194] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/msg/CanState.idl\n'}
+[0.806222] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/msg/Manoeuvre.idl\n'}
+[0.806393] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/msg/Directions.idl\n'}
+[0.806426] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/msg/Direction.idl\n'}
+[0.806461] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/msg/TurnSignal.idl\n'}
+[0.806494] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/srv/BlockedLanelets.idl\n'}
+[0.806520] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/msg/AVCondition.idl\n'}
+[0.806548] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/msg/LLLC.idl\n'}
+[0.806580] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/srv/SetBagName.idl\n'}
+[0.806612] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/msg/StackState.idl\n'}
+[0.806654] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/msg/Detection.msg\n'}
+[0.806695] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/msg/GeneralDetection.msg\n'}
+[0.806721] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/msg/TrafficLight.msg\n'}
+[0.806766] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/msg/Location.msg\n'}
+[0.806989] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/msg/RailroadCrossing.msg\n'}
+[0.807030] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/msg/Stopline.msg\n'}
+[0.807105] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/msg/Trajectory.msg\n'}
+[0.807137] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/msg/TrajPoint.msg\n'}
+[0.807344] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/msg/SpeedLimit.msg\n'}
+[0.807396] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/msg/DynamicObstacle.msg\n'}
+[0.807442] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/msg/TrafficSign.msg\n'}
+[0.807480] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/msg/VehicleState.msg\n'}
+[0.807507] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/msg/StaticObstacle.msg\n'}
+[0.807540] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/msg/Destination.msg\n'}
+[0.807579] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/msg/SharedPointerReference.msg\n'}
+[0.807613] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/msg/WheelVelocities.msg\n'}
+[0.807643] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/msg/MPCControl.msg\n'}
+[0.807665] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/srv/SetDestination.srv\n'}
+[0.807699] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/srv/SetDestination_Request.msg\n'}
+[0.807734] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/srv/SetDestination_Response.msg\n'}
+[0.807773] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/srv/SetLocation.srv\n'}
+[0.807820] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/srv/SetLocation_Request.msg\n'}
+[0.807854] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/srv/SetLocation_Response.msg\n'}
+[0.807885] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/srv/Reroute.srv\n'}
+[0.807907] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/srv/Reroute_Request.msg\n'}
+[0.807954] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/srv/Reroute_Response.msg\n'}
+[0.807978] (-) TimerEvent: {}
+[0.808042] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/srv/LaneletAttribute.srv\n'}
+[0.808198] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/srv/LaneletAttribute_Request.msg\n'}
+[0.808230] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/srv/LaneletAttribute_Response.msg\n'}
+[0.808252] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/srv/AttributeDictionary.srv\n'}
+[0.808274] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/srv/AttributeDictionary_Request.msg\n'}
+[0.808298] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/srv/AttributeDictionary_Response.msg\n'}
+[0.808329] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/srv/GetId.srv\n'}
+[0.808383] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/srv/GetId_Request.msg\n'}
+[0.808424] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/srv/GetId_Response.msg\n'}
+[0.808449] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/msg/CanState.msg\n'}
+[0.808478] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/msg/Manoeuvre.msg\n'}
+[0.808511] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/msg/Directions.msg\n'}
+[0.808533] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/msg/Direction.msg\n'}
+[0.808568] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/msg/TurnSignal.msg\n'}
+[0.808605] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/srv/BlockedLanelets.srv\n'}
+[0.808639] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/srv/BlockedLanelets_Request.msg\n'}
+[0.808662] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/srv/BlockedLanelets_Response.msg\n'}
+[0.808686] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/msg/AVCondition.msg\n'}
+[0.808723] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/msg/LLLC.msg\n'}
+[0.808745] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/srv/SetBagName.srv\n'}
+[0.808771] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/srv/SetBagName_Request.msg\n'}
+[0.808809] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/srv/SetBagName_Response.msg\n'}
+[0.808833] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/msg/StackState.msg\n'}
+[0.808865] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/ament_index/resource_index/package_run_dependencies/autodrive_msgs\n'}
+[0.808887] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/ament_index/resource_index/parent_prefix_path/autodrive_msgs\n'}
+[0.810364] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/environment/ament_prefix_path.sh\n'}
+[0.810422] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/environment/ament_prefix_path.dsv\n'}
+[0.810638] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/environment/path.sh\n'}
+[0.811040] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/environment/path.dsv\n'}
+[0.811083] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/local_setup.bash\n'}
+[0.811259] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/local_setup.sh\n'}
+[0.811321] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/local_setup.zsh\n'}
+[0.811370] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/local_setup.dsv\n'}
+[0.811411] (autodrive_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/package.dsv\n'}
+[0.811731] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/ament_index/resource_index/packages/autodrive_msgs\n'}
+[0.820489] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/cmake/export_autodrive_msgs__rosidl_generator_cExport.cmake\n'}
+[0.820560] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/cmake/export_autodrive_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.820585] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/cmake/export_autodrive_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.820609] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/cmake/export_autodrive_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.820632] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/cmake/export_autodrive_msgs__rosidl_generator_cppExport.cmake\n'}
+[0.820654] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/cmake/export_autodrive_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.820677] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/cmake/export_autodrive_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.820699] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/cmake/autodrive_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.820720] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/cmake/autodrive_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.820741] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/cmake/autodrive_msgs__rosidl_typesupport_cExport.cmake\n'}
+[0.820762] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/cmake/autodrive_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.820781] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/cmake/autodrive_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.820803] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/cmake/autodrive_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.820823] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/cmake/autodrive_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[0.820844] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/cmake/autodrive_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.820863] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/cmake/export_autodrive_msgs__rosidl_generator_pyExport.cmake\n'}
+[0.820882] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/cmake/export_autodrive_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.820902] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[0.820922] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.820943] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.820963] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.820993] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.821025] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.821047] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.821067] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/cmake/autodrive_msgsConfig.cmake\n'}
+[0.821086] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/cmake/autodrive_msgsConfig-version.cmake\n'}
+[0.821105] (autodrive_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/autodrive_msgs/share/autodrive_msgs/package.xml\n'}
+[0.823958] (autodrive_msgs) CommandEnded: {'returncode': 0}
+[0.846518] (autodrive_msgs) JobEnded: {'identifier': 'autodrive_msgs', 'rc': 0}
+[0.847741] (behaviour_planner_pkg) JobStarted: {'identifier': 'behaviour_planner_pkg'}
+[0.908117] (-) TimerEvent: {}
+[0.941548] (my_test_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[0.942355] (my_test_pkg) StdoutLine: {'line': b'writing ../../build/my_test_pkg/my_test_pkg.egg-info/PKG-INFO\n'}
+[0.942553] (my_test_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/my_test_pkg/my_test_pkg.egg-info/dependency_links.txt\n'}
+[0.944443] (my_test_pkg) StdoutLine: {'line': b'writing entry points to ../../build/my_test_pkg/my_test_pkg.egg-info/entry_points.txt\n'}
+[0.944689] (my_test_pkg) StdoutLine: {'line': b'writing requirements to ../../build/my_test_pkg/my_test_pkg.egg-info/requires.txt\n'}
+[0.944785] (my_test_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/my_test_pkg/my_test_pkg.egg-info/top_level.txt\n'}
+[0.945803] (my_test_pkg) StdoutLine: {'line': b"reading manifest file '../../build/my_test_pkg/my_test_pkg.egg-info/SOURCES.txt'\n"}
+[0.947110] (my_test_pkg) StdoutLine: {'line': b"writing manifest file '../../build/my_test_pkg/my_test_pkg.egg-info/SOURCES.txt'\n"}
+[0.947160] (my_test_pkg) StdoutLine: {'line': b'running build\n'}
+[0.947612] (my_test_pkg) StdoutLine: {'line': b'running build_py\n'}
+[0.948001] (my_test_pkg) StdoutLine: {'line': b'running install\n'}
+[0.949478] (my_test_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[0.950983] (my_test_pkg) StdoutLine: {'line': b'running install_data\n'}
+[0.951032] (my_test_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.953437] (my_test_pkg) StdoutLine: {'line': b"removing '/root/ros2_ws/install/my_test_pkg/lib/python3.10/site-packages/my_test_pkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.955561] (my_test_pkg) StdoutLine: {'line': b'Copying ../../build/my_test_pkg/my_test_pkg.egg-info to /root/ros2_ws/install/my_test_pkg/lib/python3.10/site-packages/my_test_pkg-0.0.0-py3.10.egg-info\n'}
+[0.955866] (my_test_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[0.968910] (my_test_pkg) StdoutLine: {'line': b'Installing dummy_publisher script to /root/ros2_ws/install/my_test_pkg/lib/my_test_pkg\n'}
+[0.969084] (my_test_pkg) StdoutLine: {'line': b"writing list of installed files to '/root/ros2_ws/build/my_test_pkg/install.log'\n"}
+[1.008240] (-) TimerEvent: {}
+[1.042934] (my_test_pkg) CommandEnded: {'returncode': 0}
+[1.052034] (my_test_pkg) JobEnded: {'identifier': 'my_test_pkg', 'rc': 0}
+[1.108423] (-) TimerEvent: {}
+[1.208641] (-) TimerEvent: {}
+[1.253542] (behaviour_planner_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/behaviour_planner_pkg', 'build', '--build-base', '/root/ros2_ws/build/behaviour_planner_pkg/build', 'install', '--record', '/root/ros2_ws/build/behaviour_planner_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/root/ros2_ws/src/behaviour_planner_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'GIT_LOCAL_CREDENTIALS': 'true', 'USER': 'root', 'SSH_CLIENT': '192.168.157.1 50631 22', 'SSH_AGENT_PID': '5198', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/root/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/root/ros2_ws/install/autodrive_msgs/lib:/root/fullstack_testing_ws/install/novatel_gps_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/root/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/root', 'OLDPWD': '/root', 'TERM_PROGRAM_VERSION': '1.95.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/0/vscode-ipc-5a2cbf37-ffca-4815-b336-b333c5d62fd3.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/0/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/root/ros2_ws/install:/root/fullstack_testing_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/root/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/0', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/0/vscode-git-dd8fc300bb.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/ssh-XXXXXXxL88eT/agent.5197', 'AMENT_PREFIX_PATH': '/root/ros2_ws/install/behaviour_planner_pkg:/root/ros2_ws/install/autodrive_msgs:/root/ros2_ws/install/my_test_pkg:/root/fullstack_testing_ws/install/novatel_gps_msgs:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/root/ros2_ws/build/behaviour_planner_pkg', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.157.1 50631 192.168.157.128 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/root/ros2_ws/build/behaviour_planner_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/behaviour_planner_pkg/lib/python3.10/site-packages:/root/ros2_ws/install/behaviour_planner_pkg/lib/python3.10/site-packages:/root/ros2_ws/install/autodrive_msgs/local/lib/python3.10/dist-packages:/root/ros2_ws/install/my_test_pkg/lib/python3.10/site-packages:/root/fullstack_testing_ws/install/novatel_gps_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/ros2_ws/install/autodrive_msgs:/root/fullstack_testing_ws/install/novatel_gps_msgs'}, 'shell': False}
+[1.308763] (-) TimerEvent: {}
+[1.395191] (behaviour_planner_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[1.395513] (behaviour_planner_pkg) StdoutLine: {'line': b'writing ../../build/behaviour_planner_pkg/behaviour_planner_pkg.egg-info/PKG-INFO\n'}
+[1.395651] (behaviour_planner_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/behaviour_planner_pkg/behaviour_planner_pkg.egg-info/dependency_links.txt\n'}
+[1.395722] (behaviour_planner_pkg) StdoutLine: {'line': b'writing entry points to ../../build/behaviour_planner_pkg/behaviour_planner_pkg.egg-info/entry_points.txt\n'}
+[1.396478] (behaviour_planner_pkg) StdoutLine: {'line': b'writing requirements to ../../build/behaviour_planner_pkg/behaviour_planner_pkg.egg-info/requires.txt\n'}
+[1.396524] (behaviour_planner_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/behaviour_planner_pkg/behaviour_planner_pkg.egg-info/top_level.txt\n'}
+[1.397890] (behaviour_planner_pkg) StdoutLine: {'line': b"reading manifest file '../../build/behaviour_planner_pkg/behaviour_planner_pkg.egg-info/SOURCES.txt'\n"}
+[1.398506] (behaviour_planner_pkg) StdoutLine: {'line': b"writing manifest file '../../build/behaviour_planner_pkg/behaviour_planner_pkg.egg-info/SOURCES.txt'\n"}
+[1.398558] (behaviour_planner_pkg) StdoutLine: {'line': b'running build\n'}
+[1.398985] (behaviour_planner_pkg) StdoutLine: {'line': b'running build_py\n'}
+[1.399280] (behaviour_planner_pkg) StdoutLine: {'line': b'running install\n'}
+[1.399411] (behaviour_planner_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[1.401635] (behaviour_planner_pkg) StdoutLine: {'line': b'running install_data\n'}
+[1.401681] (behaviour_planner_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.402403] (behaviour_planner_pkg) StdoutLine: {'line': b"removing '/root/ros2_ws/install/behaviour_planner_pkg/lib/python3.10/site-packages/behaviour_planner_pkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.403342] (behaviour_planner_pkg) StdoutLine: {'line': b'Copying ../../build/behaviour_planner_pkg/behaviour_planner_pkg.egg-info to /root/ros2_ws/install/behaviour_planner_pkg/lib/python3.10/site-packages/behaviour_planner_pkg-0.0.0-py3.10.egg-info\n'}
+[1.403715] (behaviour_planner_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[1.408954] (-) TimerEvent: {}
+[1.415992] (behaviour_planner_pkg) StdoutLine: {'line': b'Installing behaviour_planner script to /root/ros2_ws/install/behaviour_planner_pkg/lib/behaviour_planner_pkg\n'}
+[1.416127] (behaviour_planner_pkg) StdoutLine: {'line': b"writing list of installed files to '/root/ros2_ws/build/behaviour_planner_pkg/install.log'\n"}
+[1.429824] (behaviour_planner_pkg) CommandEnded: {'returncode': 0}
+[1.436197] (behaviour_planner_pkg) JobEnded: {'identifier': 'behaviour_planner_pkg', 'rc': 0}
+[1.436768] (-) EventReactorShutdown: {}
