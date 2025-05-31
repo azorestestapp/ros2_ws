@@ -1,0 +1,2 @@
+string condition
+bool passed

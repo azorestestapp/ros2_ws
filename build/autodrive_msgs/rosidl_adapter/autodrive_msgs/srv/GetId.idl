@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from autodrive_msgs/srv/GetId.srv
+// generated code does not contain a copyright notice
+
+
+module autodrive_msgs {
+  module srv {
+    struct GetId_Request {
+      sequence<double> east;
+
+      sequence<double> north;
+
+      sequence<double> radius;
+    };
+    struct GetId_Response {
+      boolean error;
+
+      sequence<uint64> lanelet_id;
+    };
+  };
+};

@@ -1,0 +1,3 @@
+
+string confirm
+bool error

@@ -1,0 +1,3 @@
+[console_scripts]
+dummy_publisher = my_test_pkg.dummy_publisher:main
+

@@ -1,0 +1,1201 @@
+[0.009s] Invoking command in '/root/ros2_ws/src/build/autodrive_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/my_test_pkg:/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/autodrive_msgs -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/install/autodrive_msgs
+[0.228s] -- The C compiler identification is GNU 11.4.0
+[0.344s] -- The CXX compiler identification is GNU 11.4.0
+[0.352s] -- Detecting C compiler ABI info
+[0.398s] -- Detecting C compiler ABI info - done
+[0.398s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.398s] -- Detecting C compile features
+[0.398s] -- Detecting C compile features - done
+[0.400s] -- Detecting CXX compiler ABI info
+[0.438s] -- Detecting CXX compiler ABI info - done
+[0.440s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.441s] -- Detecting CXX compile features
+[0.441s] -- Detecting CXX compile features - done
+[0.451s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.525s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.580s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.617s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.621s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.629s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.642s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.655s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.686s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.690s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.734s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.746s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.762s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.767s] -- Looking for pthread.h
+[0.804s] -- Looking for pthread.h - found
+[0.804s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.836s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.837s] -- Found Threads: TRUE  
+[0.881s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.890s] -- Found vision_msgs: 4.1.1 (/opt/ros/humble/share/vision_msgs/cmake)
+[0.901s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.117s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.312s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.388s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.399s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.400s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.412s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.412s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.412s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.412s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[1.421s] -- Found PythonExtra: .so  
+[1.627s] -- Using numpy include directory: /usr/local/lib/python3.10/dist-packages/numpy/core/include
+[1.643s] -- Configuring done
+[1.703s] -- Generating done
+[1.713s] -- Build files have been written to: /root/ros2_ws/src/build/autodrive_msgs
+[1.719s] Invoked command in '/root/ros2_ws/src/build/autodrive_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/my_test_pkg:/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/autodrive_msgs -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/install/autodrive_msgs
+[1.720s] Invoking command in '/root/ros2_ws/src/build/autodrive_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/my_test_pkg:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/src/build/autodrive_msgs -- -j5 -l5
+[1.743s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.747s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.748s] [  1%] Built target ament_cmake_python_copy_autodrive_msgs
+[1.897s] running egg_info
+[1.897s] creating autodrive_msgs.egg-info
+[1.897s] writing autodrive_msgs.egg-info/PKG-INFO
+[1.897s] writing dependency_links to autodrive_msgs.egg-info/dependency_links.txt
+[1.897s] writing top-level names to autodrive_msgs.egg-info/top_level.txt
+[1.898s] writing manifest file 'autodrive_msgs.egg-info/SOURCES.txt'
+[1.901s] reading manifest file 'autodrive_msgs.egg-info/SOURCES.txt'
+[1.903s] writing manifest file 'autodrive_msgs.egg-info/SOURCES.txt'
+[1.931s] [  1%] Built target ament_cmake_python_build_autodrive_msgs_egg
+[2.848s] [  1%] Built target autodrive_msgs__cpp
+[2.856s] [  1%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.883s] [  2%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.956s] [  3%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.960s] [  3%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_generator_c.dir/rosidl_generator_c/autodrive_msgs/msg/detail/detection__functions.c.o[0m
+[2.960s] [  3%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_generator_c.dir/rosidl_generator_c/autodrive_msgs/msg/detail/general_detection__functions.c.o[0m
+[3.001s] [  4%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_generator_c.dir/rosidl_generator_c/autodrive_msgs/msg/detail/traffic_light__functions.c.o[0m
+[3.005s] [  4%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_generator_c.dir/rosidl_generator_c/autodrive_msgs/msg/detail/location__functions.c.o[0m
+[3.027s] [  4%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_generator_c.dir/rosidl_generator_c/autodrive_msgs/msg/detail/railroad_crossing__functions.c.o[0m
+[3.030s] [  5%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_generator_c.dir/rosidl_generator_c/autodrive_msgs/msg/detail/stopline__functions.c.o[0m
+[3.051s] [  5%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_generator_c.dir/rosidl_generator_c/autodrive_msgs/msg/detail/trajectory__functions.c.o[0m
+[3.055s] [  5%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_generator_c.dir/rosidl_generator_c/autodrive_msgs/msg/detail/traj_point__functions.c.o[0m
+[3.076s] [  6%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_generator_c.dir/rosidl_generator_c/autodrive_msgs/msg/detail/dynamic_obstacle__functions.c.o[0m
+[3.076s] [  6%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_generator_c.dir/rosidl_generator_c/autodrive_msgs/msg/detail/speed_limit__functions.c.o[0m
+[3.097s] [  7%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_generator_c.dir/rosidl_generator_c/autodrive_msgs/msg/detail/vehicle_state__functions.c.o[0m
+[3.097s] [  7%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_generator_c.dir/rosidl_generator_c/autodrive_msgs/msg/detail/traffic_sign__functions.c.o[0m
+[3.121s] [  7%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_generator_c.dir/rosidl_generator_c/autodrive_msgs/msg/detail/static_obstacle__functions.c.o[0m
+[3.130s] [  7%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_generator_c.dir/rosidl_generator_c/autodrive_msgs/msg/detail/destination__functions.c.o[0m
+[3.141s] [  8%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_generator_c.dir/rosidl_generator_c/autodrive_msgs/msg/detail/shared_pointer_reference__functions.c.o[0m
+[3.157s] [  8%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_generator_c.dir/rosidl_generator_c/autodrive_msgs/msg/detail/wheel_velocities__functions.c.o[0m
+[3.164s] [  8%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_generator_c.dir/rosidl_generator_c/autodrive_msgs/msg/detail/mpc_control__functions.c.o[0m
+[3.181s] [  9%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_generator_c.dir/rosidl_generator_c/autodrive_msgs/srv/detail/set_destination__functions.c.o[0m
+[3.186s] [  9%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_generator_c.dir/rosidl_generator_c/autodrive_msgs/srv/detail/set_location__functions.c.o[0m
+[3.207s] [ 10%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_generator_c.dir/rosidl_generator_c/autodrive_msgs/srv/detail/reroute__functions.c.o[0m
+[3.212s] [ 10%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_generator_c.dir/rosidl_generator_c/autodrive_msgs/srv/detail/lanelet_attribute__functions.c.o[0m
+[3.234s] [ 10%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_generator_c.dir/rosidl_generator_c/autodrive_msgs/srv/detail/attribute_dictionary__functions.c.o[0m
+[3.238s] [ 11%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_generator_c.dir/rosidl_generator_c/autodrive_msgs/srv/detail/get_id__functions.c.o[0m
+[3.260s] [ 11%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_generator_c.dir/rosidl_generator_c/autodrive_msgs/msg/detail/can_state__functions.c.o[0m
+[3.263s] [ 11%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_generator_c.dir/rosidl_generator_c/autodrive_msgs/msg/detail/manoeuvre__functions.c.o[0m
+[3.280s] [ 12%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_generator_c.dir/rosidl_generator_c/autodrive_msgs/msg/detail/directions__functions.c.o[0m
+[3.283s] [ 12%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_generator_c.dir/rosidl_generator_c/autodrive_msgs/msg/detail/direction__functions.c.o[0m
+[3.302s] [ 12%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_generator_c.dir/rosidl_generator_c/autodrive_msgs/msg/detail/turn_signal__functions.c.o[0m
+[3.302s] [ 13%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_generator_c.dir/rosidl_generator_c/autodrive_msgs/srv/detail/blocked_lanelets__functions.c.o[0m
+[3.322s] [ 13%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_generator_c.dir/rosidl_generator_c/autodrive_msgs/msg/detail/av_condition__functions.c.o[0m
+[3.327s] [ 13%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_generator_c.dir/rosidl_generator_c/autodrive_msgs/msg/detail/lllc__functions.c.o[0m
+[3.345s] [ 14%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_generator_c.dir/rosidl_generator_c/autodrive_msgs/srv/detail/set_bag_name__functions.c.o[0m
+[3.349s] [ 14%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_generator_c.dir/rosidl_generator_c/autodrive_msgs/msg/detail/stack_state__functions.c.o[0m
+[3.372s] [ 14%] [32m[1mLinking C shared library libautodrive_msgs__rosidl_generator_c.so[0m
+[3.399s] [ 14%] Built target autodrive_msgs__rosidl_generator_c
+[3.405s] [ 15%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.408s] [ 16%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.578s] [ 17%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autodrive_msgs/msg/detection__type_support.cpp.o[0m
+[3.776s] [ 17%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autodrive_msgs/msg/general_detection__type_support.cpp.o[0m
+[3.887s] [ 18%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autodrive_msgs/msg/traffic_light__type_support.cpp.o[0m
+[3.906s] [ 18%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autodrive_msgs/msg/detail/detection__type_support.cpp.o[0m
+[3.989s] [ 18%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autodrive_msgs/msg/detail/dds_fastrtps/detection__type_support.cpp.o[0m
+[3.998s] [ 18%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autodrive_msgs/msg/location__type_support.cpp.o[0m
+[4.170s] [ 18%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autodrive_msgs/msg/railroad_crossing__type_support.cpp.o[0m
+[4.352s] [ 18%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autodrive_msgs/msg/detail/general_detection__type_support.cpp.o[0m
+[4.388s] [ 19%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autodrive_msgs/msg/stopline__type_support.cpp.o[0m
+[4.466s] [ 19%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autodrive_msgs/msg/detail/dds_fastrtps/general_detection__type_support.cpp.o[0m
+[4.516s] [ 20%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autodrive_msgs/msg/detail/traffic_light__type_support.cpp.o[0m
+[4.525s] [ 20%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autodrive_msgs/msg/trajectory__type_support.cpp.o[0m
+[4.611s] [ 20%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autodrive_msgs/msg/detail/detection__type_support_c.cpp.o[0m
+[4.689s] [ 21%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autodrive_msgs/msg/detail/dds_fastrtps/traffic_light__type_support.cpp.o[0m
+[4.736s] [ 21%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autodrive_msgs/msg/traj_point__type_support.cpp.o[0m
+[4.756s] [ 21%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autodrive_msgs/msg/detail/detection__type_support.c.o[0m
+[4.767s] [ 21%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autodrive_msgs/msg/detail/location__type_support.cpp.o[0m
+[4.786s] [ 21%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autodrive_msgs/msg/detail/general_detection__type_support.c.o[0m
+[4.810s] [ 22%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autodrive_msgs/msg/detail/traffic_light__type_support.c.o[0m
+[4.811s] [ 22%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autodrive_msgs/msg/detail/general_detection__type_support_c.cpp.o[0m
+[4.830s] [ 22%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autodrive_msgs/msg/detail/location__type_support.c.o[0m
+[4.846s] [ 23%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autodrive_msgs/msg/detail/railroad_crossing__type_support.c.o[0m
+[4.856s] [ 24%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autodrive_msgs/msg/speed_limit__type_support.cpp.o[0m
+[4.862s] [ 24%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autodrive_msgs/msg/detail/stopline__type_support.c.o[0m
+[4.895s] [ 24%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autodrive_msgs/msg/detail/dds_fastrtps/location__type_support.cpp.o[0m
+[4.910s] [ 24%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autodrive_msgs/msg/detail/trajectory__type_support.c.o[0m
+[4.950s] [ 24%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autodrive_msgs/msg/detail/railroad_crossing__type_support.cpp.o[0m
+[4.953s] [ 25%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autodrive_msgs/msg/detail/traj_point__type_support.c.o[0m
+[4.988s] [ 26%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autodrive_msgs/msg/detail/traffic_light__type_support_c.cpp.o[0m
+[4.988s] [ 26%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autodrive_msgs/msg/detail/speed_limit__type_support.c.o[0m
+[4.992s] [ 26%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autodrive_msgs/msg/dynamic_obstacle__type_support.cpp.o[0m
+[5.022s] [ 26%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autodrive_msgs/msg/detail/dynamic_obstacle__type_support.c.o[0m
+[5.038s] [ 27%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autodrive_msgs/msg/detail/traffic_sign__type_support.c.o[0m
+[5.057s] [ 27%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autodrive_msgs/msg/detail/dds_fastrtps/railroad_crossing__type_support.cpp.o[0m
+[5.058s] [ 27%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autodrive_msgs/msg/detail/vehicle_state__type_support.c.o[0m
+[5.073s] [ 27%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autodrive_msgs/msg/detail/static_obstacle__type_support.c.o[0m
+[5.089s] [ 28%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autodrive_msgs/msg/detail/destination__type_support.c.o[0m
+[5.105s] [ 28%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autodrive_msgs/msg/traffic_sign__type_support.cpp.o[0m
+[5.106s] [ 28%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autodrive_msgs/msg/detail/shared_pointer_reference__type_support.c.o[0m
+[5.110s] [ 29%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autodrive_msgs/msg/detail/stopline__type_support.cpp.o[0m
+[5.122s] [ 29%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autodrive_msgs/msg/detail/wheel_velocities__type_support.c.o[0m
+[5.135s] [ 29%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autodrive_msgs/msg/detail/location__type_support_c.cpp.o[0m
+[5.137s] [ 30%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autodrive_msgs/msg/detail/mpc_control__type_support.c.o[0m
+[5.153s] [ 30%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autodrive_msgs/srv/detail/set_destination__type_support.c.o[0m
+[5.170s] [ 30%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autodrive_msgs/srv/detail/set_location__type_support.c.o[0m
+[5.187s] [ 31%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autodrive_msgs/srv/detail/reroute__type_support.c.o[0m
+[5.206s] [ 31%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autodrive_msgs/srv/detail/lanelet_attribute__type_support.c.o[0m
+[5.224s] [ 31%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autodrive_msgs/srv/detail/attribute_dictionary__type_support.c.o[0m
+[5.224s] [ 32%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autodrive_msgs/msg/vehicle_state__type_support.cpp.o[0m
+[5.227s] [ 33%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autodrive_msgs/msg/detail/dds_fastrtps/stopline__type_support.cpp.o[0m
+[5.243s] [ 34%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autodrive_msgs/srv/detail/get_id__type_support.c.o[0m
+[5.264s] [ 34%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autodrive_msgs/msg/detail/can_state__type_support.c.o[0m
+[5.276s] [ 34%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autodrive_msgs/msg/detail/trajectory__type_support.cpp.o[0m
+[5.276s] [ 34%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autodrive_msgs/msg/detail/railroad_crossing__type_support_c.cpp.o[0m
+[5.278s] [ 34%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autodrive_msgs/msg/detail/manoeuvre__type_support.c.o[0m
+[5.294s] [ 35%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autodrive_msgs/msg/detail/directions__type_support.c.o[0m
+[5.311s] [ 35%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autodrive_msgs/msg/detail/direction__type_support.c.o[0m
+[5.327s] [ 36%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autodrive_msgs/msg/detail/turn_signal__type_support.c.o[0m
+[5.341s] [ 36%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autodrive_msgs/msg/static_obstacle__type_support.cpp.o[0m
+[5.349s] [ 36%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autodrive_msgs/srv/detail/blocked_lanelets__type_support.c.o[0m
+[5.377s] [ 36%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autodrive_msgs/msg/detail/av_condition__type_support.c.o[0m
+[5.394s] [ 37%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autodrive_msgs/msg/detail/dds_fastrtps/trajectory__type_support.cpp.o[0m
+[5.394s] [ 37%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autodrive_msgs/msg/detail/lllc__type_support.c.o[0m
+[5.409s] [ 37%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autodrive_msgs/srv/detail/set_bag_name__type_support.c.o[0m
+[5.427s] [ 37%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autodrive_msgs/msg/detail/stack_state__type_support.c.o[0m
+[5.429s] [ 38%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autodrive_msgs/msg/detail/stopline__type_support_c.cpp.o[0m
+[5.442s] [ 39%] [32m[1mLinking C shared library libautodrive_msgs__rosidl_typesupport_introspection_c.so[0m
+[5.450s] [ 39%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autodrive_msgs/msg/detail/traj_point__type_support.cpp.o[0m
+[5.462s] [ 39%] Built target autodrive_msgs__rosidl_typesupport_introspection_c
+[5.468s] [ 40%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.494s] [ 40%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autodrive_msgs/msg/destination__type_support.cpp.o[0m
+[5.571s] [ 40%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autodrive_msgs/msg/detail/trajectory__type_support_c.cpp.o[0m
+[5.580s] [ 40%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autodrive_msgs/msg/detail/dds_fastrtps/traj_point__type_support.cpp.o[0m
+[5.612s] [ 41%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autodrive_msgs/msg/detail/speed_limit__type_support.cpp.o[0m
+[5.632s] [ 42%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autodrive_msgs/msg/shared_pointer_reference__type_support.cpp.o[0m
+[5.705s] [ 42%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autodrive_msgs/msg/detail/traj_point__type_support_c.cpp.o[0m
+[5.735s] [ 42%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autodrive_msgs/msg/wheel_velocities__type_support.cpp.o[0m
+[5.735s] [ 43%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autodrive_msgs/msg/detail/dds_fastrtps/speed_limit__type_support.cpp.o[0m
+[5.762s] [ 43%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autodrive_msgs/msg/detail/dynamic_obstacle__type_support.cpp.o[0m
+[5.840s] [ 44%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autodrive_msgs/msg/detail/speed_limit__type_support_c.cpp.o[0m
+[5.840s] [ 44%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autodrive_msgs/msg/mpc_control__type_support.cpp.o[0m
+[5.891s] [ 44%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autodrive_msgs/msg/detail/dds_fastrtps/dynamic_obstacle__type_support.cpp.o[0m
+[5.919s] [ 44%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autodrive_msgs/msg/detail/traffic_sign__type_support.cpp.o[0m
+[5.948s] [ 45%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autodrive_msgs/srv/set_destination__type_support.cpp.o[0m
+[5.973s] [ 45%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autodrive_msgs/msg/detail/dynamic_obstacle__type_support_c.cpp.o[0m
+[6.047s] [ 45%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autodrive_msgs/msg/detail/dds_fastrtps/traffic_sign__type_support.cpp.o[0m
+[6.061s] [ 45%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autodrive_msgs/srv/set_location__type_support.cpp.o[0m
+[6.088s] [ 46%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autodrive_msgs/msg/detail/vehicle_state__type_support.cpp.o[0m
+[6.111s] [ 47%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autodrive_msgs/msg/detail/traffic_sign__type_support_c.cpp.o[0m
+[6.154s] [ 47%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autodrive_msgs/msg/detection__type_support.cpp.o[0m
+[6.170s] [ 47%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autodrive_msgs/msg/general_detection__type_support.cpp.o[0m
+[6.170s] [ 47%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autodrive_msgs/srv/reroute__type_support.cpp.o[0m
+[6.185s] [ 48%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autodrive_msgs/msg/traffic_light__type_support.cpp.o[0m
+[6.199s] [ 48%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autodrive_msgs/msg/location__type_support.cpp.o[0m
+[6.213s] [ 48%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autodrive_msgs/msg/railroad_crossing__type_support.cpp.o[0m
+[6.227s] [ 49%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autodrive_msgs/msg/stopline__type_support.cpp.o[0m
+[6.232s] [ 50%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autodrive_msgs/msg/detail/dds_fastrtps/vehicle_state__type_support.cpp.o[0m
+[6.242s] [ 50%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autodrive_msgs/msg/trajectory__type_support.cpp.o[0m
+[6.247s] [ 50%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autodrive_msgs/msg/detail/static_obstacle__type_support.cpp.o[0m
+[6.254s] [ 50%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autodrive_msgs/msg/detail/vehicle_state__type_support_c.cpp.o[0m
+[6.255s] [ 50%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autodrive_msgs/msg/traj_point__type_support.cpp.o[0m
+[6.268s] [ 51%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autodrive_msgs/msg/speed_limit__type_support.cpp.o[0m
+[6.282s] [ 52%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autodrive_msgs/msg/dynamic_obstacle__type_support.cpp.o[0m
+[6.282s] [ 52%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autodrive_msgs/srv/lanelet_attribute__type_support.cpp.o[0m
+[6.295s] [ 52%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autodrive_msgs/msg/traffic_sign__type_support.cpp.o[0m
+[6.310s] [ 53%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autodrive_msgs/msg/vehicle_state__type_support.cpp.o[0m
+[6.323s] [ 53%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autodrive_msgs/msg/static_obstacle__type_support.cpp.o[0m
+[6.337s] [ 53%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autodrive_msgs/msg/destination__type_support.cpp.o[0m
+[6.351s] [ 54%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autodrive_msgs/msg/shared_pointer_reference__type_support.cpp.o[0m
+[6.365s] [ 54%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autodrive_msgs/msg/wheel_velocities__type_support.cpp.o[0m
+[6.398s] [ 55%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autodrive_msgs/msg/mpc_control__type_support.cpp.o[0m
+[6.413s] [ 55%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autodrive_msgs/srv/set_destination__type_support.cpp.o[0m
+[6.428s] [ 55%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autodrive_msgs/srv/set_location__type_support.cpp.o[0m
+[6.494s] [ 56%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autodrive_msgs/srv/reroute__type_support.cpp.o[0m
+[6.505s] [ 56%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autodrive_msgs/msg/detail/dds_fastrtps/static_obstacle__type_support.cpp.o[0m
+[6.509s] [ 56%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autodrive_msgs/msg/detail/static_obstacle__type_support_c.cpp.o[0m
+[6.510s] [ 56%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autodrive_msgs/srv/lanelet_attribute__type_support.cpp.o[0m
+[6.514s] [ 56%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autodrive_msgs/srv/attribute_dictionary__type_support.cpp.o[0m
+[6.520s] [ 57%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autodrive_msgs/msg/detail/destination__type_support.cpp.o[0m
+[6.524s] [ 57%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autodrive_msgs/srv/attribute_dictionary__type_support.cpp.o[0m
+[6.540s] [ 58%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autodrive_msgs/srv/get_id__type_support.cpp.o[0m
+[6.554s] [ 58%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autodrive_msgs/msg/can_state__type_support.cpp.o[0m
+[6.568s] [ 58%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autodrive_msgs/msg/manoeuvre__type_support.cpp.o[0m
+[6.582s] [ 59%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autodrive_msgs/msg/directions__type_support.cpp.o[0m
+[6.596s] [ 59%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autodrive_msgs/msg/direction__type_support.cpp.o[0m
+[6.611s] [ 59%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autodrive_msgs/msg/turn_signal__type_support.cpp.o[0m
+[6.622s] [ 59%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autodrive_msgs/srv/get_id__type_support.cpp.o[0m
+[6.625s] [ 60%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autodrive_msgs/srv/blocked_lanelets__type_support.cpp.o[0m
+[6.639s] [ 60%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autodrive_msgs/msg/av_condition__type_support.cpp.o[0m
+[6.645s] [ 61%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autodrive_msgs/msg/detail/destination__type_support_c.cpp.o[0m
+[6.653s] [ 61%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autodrive_msgs/msg/lllc__type_support.cpp.o[0m
+[6.666s] [ 62%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autodrive_msgs/srv/set_bag_name__type_support.cpp.o[0m
+[6.669s] [ 62%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autodrive_msgs/msg/detail/dds_fastrtps/destination__type_support.cpp.o[0m
+[6.669s] [ 62%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autodrive_msgs/msg/detail/shared_pointer_reference__type_support.cpp.o[0m
+[6.682s] [ 62%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autodrive_msgs/msg/stack_state__type_support.cpp.o[0m
+[6.695s] [ 62%] [32m[1mLinking CXX shared library libautodrive_msgs__rosidl_typesupport_c.so[0m
+[6.722s] [ 62%] Built target autodrive_msgs__rosidl_typesupport_c
+[6.726s] [ 63%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autodrive_msgs/msg/detail/dds_fastrtps/shared_pointer_reference__type_support.cpp.o[0m
+[6.740s] [ 64%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autodrive_msgs/msg/can_state__type_support.cpp.o[0m
+[6.779s] [ 64%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autodrive_msgs/msg/detail/shared_pointer_reference__type_support_c.cpp.o[0m
+[6.821s] [ 64%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autodrive_msgs/msg/detail/wheel_velocities__type_support.cpp.o[0m
+[6.828s] [ 64%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autodrive_msgs/msg/detail/dds_fastrtps/wheel_velocities__type_support.cpp.o[0m
+[6.860s] [ 64%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autodrive_msgs/msg/manoeuvre__type_support.cpp.o[0m
+[6.885s] [ 64%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autodrive_msgs/msg/detail/dds_fastrtps/mpc_control__type_support.cpp.o[0m
+[6.917s] [ 64%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autodrive_msgs/msg/detail/wheel_velocities__type_support_c.cpp.o[0m
+[6.966s] [ 65%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autodrive_msgs/msg/directions__type_support.cpp.o[0m
+[6.968s] [ 66%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autodrive_msgs/msg/detail/mpc_control__type_support.cpp.o[0m
+[6.985s] [ 67%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autodrive_msgs/srv/detail/dds_fastrtps/set_destination__type_support.cpp.o[0m
+[7.044s] [ 67%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autodrive_msgs/srv/detail/dds_fastrtps/set_location__type_support.cpp.o[0m
+[7.061s] [ 68%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autodrive_msgs/msg/detail/mpc_control__type_support_c.cpp.o[0m
+[7.082s] [ 68%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autodrive_msgs/msg/direction__type_support.cpp.o[0m
+[7.121s] [ 68%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autodrive_msgs/srv/detail/set_destination__type_support.cpp.o[0m
+[7.155s] [ 68%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autodrive_msgs/srv/detail/set_location__type_support.cpp.o[0m
+[7.200s] [ 68%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autodrive_msgs/msg/turn_signal__type_support.cpp.o[0m
+[7.213s] [ 68%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autodrive_msgs/srv/detail/set_destination__type_support_c.cpp.o[0m
+[7.230s] [ 69%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autodrive_msgs/srv/detail/dds_fastrtps/reroute__type_support.cpp.o[0m
+[7.287s] [ 70%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autodrive_msgs/srv/detail/reroute__type_support.cpp.o[0m
+[7.306s] [ 71%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autodrive_msgs/srv/blocked_lanelets__type_support.cpp.o[0m
+[7.325s] [ 71%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autodrive_msgs/srv/detail/lanelet_attribute__type_support.cpp.o[0m
+[7.354s] [ 71%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autodrive_msgs/srv/detail/set_location__type_support_c.cpp.o[0m
+[7.411s] [ 71%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autodrive_msgs/srv/detail/dds_fastrtps/lanelet_attribute__type_support.cpp.o[0m
+[7.413s] [ 71%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autodrive_msgs/msg/av_condition__type_support.cpp.o[0m
+[7.455s] [ 71%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autodrive_msgs/srv/detail/attribute_dictionary__type_support.cpp.o[0m
+[7.477s] [ 72%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autodrive_msgs/srv/detail/get_id__type_support.cpp.o[0m
+[7.498s] [ 73%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autodrive_msgs/srv/detail/reroute__type_support_c.cpp.o[0m
+[7.518s] [ 73%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autodrive_msgs/msg/lllc__type_support.cpp.o[0m
+[7.574s] [ 73%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autodrive_msgs/srv/detail/dds_fastrtps/attribute_dictionary__type_support.cpp.o[0m
+[7.683s] [ 73%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autodrive_msgs/msg/detail/can_state__type_support.cpp.o[0m
+[7.701s] [ 74%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autodrive_msgs/srv/set_bag_name__type_support.cpp.o[0m
+[7.705s] [ 74%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autodrive_msgs/srv/detail/lanelet_attribute__type_support_c.cpp.o[0m
+[7.725s] [ 74%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autodrive_msgs/msg/detail/manoeuvre__type_support.cpp.o[0m
+[7.832s] [ 75%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autodrive_msgs/srv/detail/dds_fastrtps/get_id__type_support.cpp.o[0m
+[7.833s] [ 75%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autodrive_msgs/msg/stack_state__type_support.cpp.o[0m
+[7.862s] [ 76%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autodrive_msgs/msg/detail/directions__type_support.cpp.o[0m
+[7.876s] [ 76%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autodrive_msgs/srv/detail/attribute_dictionary__type_support_c.cpp.o[0m
+[7.902s] [ 76%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autodrive_msgs/msg/detail/direction__type_support.cpp.o[0m
+[7.945s] [ 76%] [32m[1mLinking CXX shared library libautodrive_msgs__rosidl_typesupport_cpp.so[0m
+[7.967s] [ 76%] Built target autodrive_msgs__rosidl_typesupport_cpp
+[7.971s] [ 77%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autodrive_msgs/srv/detail/get_id__type_support_c.cpp.o[0m
+[8.054s] [ 77%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autodrive_msgs/msg/detail/turn_signal__type_support.cpp.o[0m
+[8.057s] [ 77%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autodrive_msgs/msg/detail/can_state__type_support_c.cpp.o[0m
+[8.066s] [ 77%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autodrive_msgs/msg/detail/dds_fastrtps/can_state__type_support.cpp.o[0m
+[8.091s] [ 78%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autodrive_msgs/srv/detail/blocked_lanelets__type_support.cpp.o[0m
+[8.146s] [ 78%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autodrive_msgs/msg/detail/manoeuvre__type_support_c.cpp.o[0m
+[8.203s] [ 79%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autodrive_msgs/msg/detail/directions__type_support_c.cpp.o[0m
+[8.204s] [ 79%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autodrive_msgs/msg/detail/av_condition__type_support.cpp.o[0m
+[8.237s] [ 79%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autodrive_msgs/msg/detail/dds_fastrtps/manoeuvre__type_support.cpp.o[0m
+[8.252s] [ 79%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autodrive_msgs/msg/detail/lllc__type_support.cpp.o[0m
+[8.278s] [ 79%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autodrive_msgs/msg/detail/direction__type_support_c.cpp.o[0m
+[8.341s] [ 79%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autodrive_msgs/msg/detail/turn_signal__type_support_c.cpp.o[0m
+[8.354s] [ 80%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autodrive_msgs/srv/detail/set_bag_name__type_support.cpp.o[0m
+[8.393s] [ 81%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autodrive_msgs/msg/detail/dds_fastrtps/directions__type_support.cpp.o[0m
+[8.410s] [ 82%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autodrive_msgs/srv/detail/blocked_lanelets__type_support_c.cpp.o[0m
+[8.411s] [ 82%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autodrive_msgs/msg/detail/stack_state__type_support.cpp.o[0m
+[8.483s] [ 82%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autodrive_msgs/msg/detail/av_condition__type_support_c.cpp.o[0m
+[8.517s] [ 82%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autodrive_msgs/msg/detail/dds_fastrtps/direction__type_support.cpp.o[0m
+[8.558s] [ 82%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autodrive_msgs/msg/detail/lllc__type_support_c.cpp.o[0m
+[8.574s] [ 82%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autodrive_msgs/msg/detail/dds_fastrtps/turn_signal__type_support.cpp.o[0m
+[8.576s] [ 83%] [32m[1mLinking CXX shared library libautodrive_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[8.632s] [ 84%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autodrive_msgs/srv/detail/set_bag_name__type_support_c.cpp.o[0m
+[8.638s] [ 84%] Built target autodrive_msgs__rosidl_typesupport_introspection_cpp
+[8.641s] [ 84%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autodrive_msgs/msg/detail/stack_state__type_support_c.cpp.o[0m
+[8.672s] [ 85%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autodrive_msgs/srv/detail/dds_fastrtps/blocked_lanelets__type_support.cpp.o[0m
+[8.693s] [ 85%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autodrive_msgs/msg/detail/dds_fastrtps/av_condition__type_support.cpp.o[0m
+[8.733s] [ 85%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autodrive_msgs/msg/detail/dds_fastrtps/lllc__type_support.cpp.o[0m
+[8.773s] [ 86%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autodrive_msgs/srv/detail/dds_fastrtps/set_bag_name__type_support.cpp.o[0m
+[8.780s] [ 87%] [32m[1mLinking CXX shared library libautodrive_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[8.819s] [ 87%] Built target autodrive_msgs__rosidl_typesupport_fastrtps_c
+[8.823s] [ 87%] [32mBuilding CXX object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autodrive_msgs/msg/detail/dds_fastrtps/stack_state__type_support.cpp.o[0m
+[8.971s] [ 87%] [32m[1mLinking CXX shared library libautodrive_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[9.015s] [ 87%] Built target autodrive_msgs__rosidl_typesupport_fastrtps_cpp
+[9.022s] [ 87%] Built target autodrive_msgs
+[9.029s] [ 87%] [34m[1mGenerating Python code for ROS interfaces[0m
+[10.836s] [ 87%] Built target autodrive_msgs__py
+[10.844s] [ 88%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_generator_py.dir/rosidl_generator_py/autodrive_msgs/msg/_general_detection_s.c.o[0m
+[10.844s] [ 88%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_generator_py.dir/rosidl_generator_py/autodrive_msgs/msg/_detection_s.c.o[0m
+[10.844s] [ 88%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_generator_py.dir/rosidl_generator_py/autodrive_msgs/msg/_traffic_light_s.c.o[0m
+[10.844s] [ 89%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_generator_py.dir/rosidl_generator_py/autodrive_msgs/msg/_location_s.c.o[0m
+[10.845s] [ 89%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_generator_py.dir/rosidl_generator_py/autodrive_msgs/msg/_railroad_crossing_s.c.o[0m
+[10.910s] [ 89%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_generator_py.dir/rosidl_generator_py/autodrive_msgs/msg/_stopline_s.c.o[0m
+[10.910s] [ 90%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_generator_py.dir/rosidl_generator_py/autodrive_msgs/msg/_trajectory_s.c.o[0m
+[10.912s] [ 90%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_generator_py.dir/rosidl_generator_py/autodrive_msgs/msg/_traj_point_s.c.o[0m
+[10.922s] [ 91%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_generator_py.dir/rosidl_generator_py/autodrive_msgs/msg/_speed_limit_s.c.o[0m
+[10.922s] [ 91%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_generator_py.dir/rosidl_generator_py/autodrive_msgs/msg/_dynamic_obstacle_s.c.o[0m
+[10.956s] [ 92%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_generator_py.dir/rosidl_generator_py/autodrive_msgs/msg/_vehicle_state_s.c.o[0m
+[10.956s] [ 92%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_generator_py.dir/rosidl_generator_py/autodrive_msgs/msg/_traffic_sign_s.c.o[0m
+[10.957s] [ 92%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_generator_py.dir/rosidl_generator_py/autodrive_msgs/msg/_static_obstacle_s.c.o[0m
+[10.967s] [ 93%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_generator_py.dir/rosidl_generator_py/autodrive_msgs/msg/_shared_pointer_reference_s.c.o[0m
+[10.967s] [ 93%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_generator_py.dir/rosidl_generator_py/autodrive_msgs/msg/_destination_s.c.o[0m
+[11.001s] [ 93%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_generator_py.dir/rosidl_generator_py/autodrive_msgs/msg/_wheel_velocities_s.c.o[0m
+[11.001s] [ 93%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_generator_py.dir/rosidl_generator_py/autodrive_msgs/msg/_mpc_control_s.c.o[0m
+[11.011s] [ 94%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_generator_py.dir/rosidl_generator_py/autodrive_msgs/srv/_set_location_s.c.o[0m
+[11.011s] [ 94%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_generator_py.dir/rosidl_generator_py/autodrive_msgs/srv/_set_destination_s.c.o[0m
+[11.018s] [ 94%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_generator_py.dir/rosidl_generator_py/autodrive_msgs/srv/_reroute_s.c.o[0m
+[11.046s] [ 95%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_generator_py.dir/rosidl_generator_py/autodrive_msgs/srv/_lanelet_attribute_s.c.o[0m
+[11.048s] [ 95%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_generator_py.dir/rosidl_generator_py/autodrive_msgs/srv/_attribute_dictionary_s.c.o[0m
+[11.057s] [ 95%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_generator_py.dir/rosidl_generator_py/autodrive_msgs/srv/_get_id_s.c.o[0m
+[11.061s] [ 96%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_generator_py.dir/rosidl_generator_py/autodrive_msgs/msg/_can_state_s.c.o[0m
+[11.075s] [ 96%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_generator_py.dir/rosidl_generator_py/autodrive_msgs/msg/_manoeuvre_s.c.o[0m
+[11.098s] [ 96%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_generator_py.dir/rosidl_generator_py/autodrive_msgs/msg/_directions_s.c.o[0m
+[11.101s] [ 97%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_generator_py.dir/rosidl_generator_py/autodrive_msgs/msg/_direction_s.c.o[0m
+[11.105s] [ 97%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_generator_py.dir/rosidl_generator_py/autodrive_msgs/msg/_turn_signal_s.c.o[0m
+[11.118s] [ 97%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_generator_py.dir/rosidl_generator_py/autodrive_msgs/srv/_blocked_lanelets_s.c.o[0m
+[11.120s] [ 98%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_generator_py.dir/rosidl_generator_py/autodrive_msgs/msg/_av_condition_s.c.o[0m
+[11.143s] [ 98%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_generator_py.dir/rosidl_generator_py/autodrive_msgs/msg/_lllc_s.c.o[0m
+[11.146s] [ 99%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_generator_py.dir/rosidl_generator_py/autodrive_msgs/srv/_set_bag_name_s.c.o[0m
+[11.148s] [ 99%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_generator_py.dir/rosidl_generator_py/autodrive_msgs/msg/_stack_state_s.c.o[0m
+[11.191s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/autodrive_msgs/libautodrive_msgs__rosidl_generator_py.so[0m
+[11.212s] [ 99%] Built target autodrive_msgs__rosidl_generator_py
+[11.220s] [ 99%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/autodrive_msgs/_autodrive_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[11.220s] [100%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/autodrive_msgs/_autodrive_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[11.220s] [100%] [32mBuilding C object CMakeFiles/autodrive_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/autodrive_msgs/_autodrive_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[11.311s] [100%] [32m[1mLinking C shared library rosidl_generator_py/autodrive_msgs/autodrive_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[11.311s] [100%] [32m[1mLinking C shared library rosidl_generator_py/autodrive_msgs/autodrive_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[11.313s] [100%] [32m[1mLinking C shared library rosidl_generator_py/autodrive_msgs/autodrive_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[11.329s] [100%] Built target autodrive_msgs__rosidl_typesupport_fastrtps_c__pyext
+[11.329s] [100%] Built target autodrive_msgs__rosidl_typesupport_c__pyext
+[11.331s] [100%] Built target autodrive_msgs__rosidl_typesupport_introspection_c__pyext
+[11.337s] Invoked command in '/root/ros2_ws/src/build/autodrive_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/my_test_pkg:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/src/build/autodrive_msgs -- -j5 -l5
+[11.341s] Invoking command in '/root/ros2_ws/src/build/autodrive_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/my_test_pkg:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/src/build/autodrive_msgs
+[11.344s] -- Install configuration: ""
+[11.344s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/ament_index/resource_index/rosidl_interfaces/autodrive_msgs
+[11.344s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs
+[11.344s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg
+[11.344s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/traffic_light.h
+[11.344s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/shared_pointer_reference.h
+[11.344s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/av_condition.h
+[11.345s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/railroad_crossing.h
+[11.345s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/turn_signal.h
+[11.345s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/direction.h
+[11.345s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/wheel_velocities.h
+[11.345s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/speed_limit.h
+[11.345s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/trajectory.h
+[11.345s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/general_detection.h
+[11.345s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/destination.h
+[11.345s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/manoeuvre.h
+[11.345s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/mpc_control.h
+[11.345s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/stopline.h
+[11.345s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/can_state.h
+[11.345s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/traffic_sign.h
+[11.345s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/stack_state.h
+[11.345s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail
+[11.345s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/dynamic_obstacle__functions.h
+[11.345s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/general_detection__functions.h
+[11.346s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/trajectory__functions.c
+[11.346s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/av_condition__functions.h
+[11.346s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/trajectory__type_support.h
+[11.346s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/mpc_control__struct.h
+[11.346s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/can_state__struct.h
+[11.346s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traffic_light__functions.h
+[11.346s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traj_point__type_support.h
+[11.346s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/stopline__type_support.h
+[11.346s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/location__functions.c
+[11.346s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/mpc_control__functions.c
+[11.346s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traffic_sign__type_support.h
+[11.346s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/direction__functions.h
+[11.346s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/lllc__struct.h
+[11.346s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/dynamic_obstacle__functions.c
+[11.346s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/destination__type_support.h
+[11.346s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/stopline__functions.c
+[11.346s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/stack_state__struct.h
+[11.346s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/vehicle_state__functions.c
+[11.346s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/vehicle_state__type_support.h
+[11.346s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/shared_pointer_reference__functions.h
+[11.346s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/can_state__functions.c
+[11.346s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traj_point__struct.h
+[11.347s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traffic_light__functions.c
+[11.347s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/direction__struct.h
+[11.347s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/directions__functions.h
+[11.347s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/shared_pointer_reference__type_support.h
+[11.347s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/can_state__type_support.h
+[11.347s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/turn_signal__type_support.h
+[11.347s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/detection__struct.h
+[11.347s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/speed_limit__struct.h
+[11.347s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/general_detection__struct.h
+[11.347s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/stopline__struct.h
+[11.347s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/destination__struct.h
+[11.347s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/static_obstacle__functions.c
+[11.347s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traffic_sign__functions.h
+[11.347s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traj_point__functions.c
+[11.347s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/wheel_velocities__type_support.h
+[11.348s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/speed_limit__type_support.h
+[11.348s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/location__struct.h
+[11.348s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traffic_sign__functions.c
+[11.348s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/general_detection__type_support.h
+[11.348s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/general_detection__functions.c
+[11.348s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/static_obstacle__struct.h
+[11.348s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/static_obstacle__type_support.h
+[11.348s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/destination__functions.c
+[11.348s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/stack_state__type_support.h
+[11.348s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traffic_light__type_support.h
+[11.348s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/lllc__functions.h
+[11.348s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/directions__type_support.h
+[11.348s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/shared_pointer_reference__struct.h
+[11.348s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/dynamic_obstacle__struct.h
+[11.348s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/manoeuvre__type_support.h
+[11.348s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traj_point__functions.h
+[11.348s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/location__functions.h
+[11.348s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/trajectory__struct.h
+[11.348s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/vehicle_state__struct.h
+[11.348s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/location__type_support.h
+[11.348s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/turn_signal__functions.h
+[11.348s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/lllc__functions.c
+[11.348s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/wheel_velocities__struct.h
+[11.348s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/mpc_control__type_support.h
+[11.348s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/stopline__functions.h
+[11.348s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/directions__functions.c
+[11.349s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/direction__functions.c
+[11.349s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/railroad_crossing__functions.h
+[11.349s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/wheel_velocities__functions.c
+[11.349s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/trajectory__functions.h
+[11.349s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/destination__functions.h
+[11.349s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/speed_limit__functions.h
+[11.349s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/detection__functions.h
+[11.349s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/railroad_crossing__functions.c
+[11.349s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/speed_limit__functions.c
+[11.349s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/vehicle_state__functions.h
+[11.349s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/manoeuvre__functions.h
+[11.349s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/av_condition__struct.h
+[11.349s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/mpc_control__functions.h
+[11.349s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/turn_signal__functions.c
+[11.349s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/manoeuvre__struct.h
+[11.349s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/railroad_crossing__type_support.h
+[11.349s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/railroad_crossing__struct.h
+[11.349s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/detection__type_support.h
+[11.349s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/turn_signal__struct.h
+[11.350s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traffic_sign__struct.h
+[11.350s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/manoeuvre__functions.c
+[11.350s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/directions__struct.h
+[11.350s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/shared_pointer_reference__functions.c
+[11.350s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/direction__type_support.h
+[11.350s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/can_state__functions.h
+[11.350s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/wheel_velocities__functions.h
+[11.350s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/static_obstacle__functions.h
+[11.350s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/stack_state__functions.c
+[11.350s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/dynamic_obstacle__type_support.h
+[11.350s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/lllc__type_support.h
+[11.350s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/stack_state__functions.h
+[11.351s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/detection__functions.c
+[11.351s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traffic_light__struct.h
+[11.351s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/av_condition__type_support.h
+[11.351s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/av_condition__functions.c
+[11.351s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/location.h
+[11.351s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/directions.h
+[11.351s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/dynamic_obstacle.h
+[11.351s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/traj_point.h
+[11.351s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/lllc.h
+[11.351s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/rosidl_generator_c__visibility_control.h
+[11.351s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/static_obstacle.h
+[11.352s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/vehicle_state.h
+[11.352s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detection.h
+[11.352s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv
+[11.352s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/get_id.h
+[11.352s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/set_destination.h
+[11.352s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/attribute_dictionary.h
+[11.352s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/blocked_lanelets.h
+[11.352s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/set_location.h
+[11.352s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/set_bag_name.h
+[11.352s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail
+[11.352s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_location__struct.h
+[11.352s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/get_id__struct.h
+[11.352s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/get_id__functions.h
+[11.352s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/attribute_dictionary__struct.h
+[11.353s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/get_id__functions.c
+[11.353s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_bag_name__struct.h
+[11.353s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/blocked_lanelets__struct.h
+[11.353s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/reroute__functions.h
+[11.353s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/reroute__type_support.h
+[11.353s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/get_id__type_support.h
+[11.353s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/reroute__functions.c
+[11.353s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/blocked_lanelets__functions.h
+[11.353s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_bag_name__functions.h
+[11.353s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/reroute__struct.h
+[11.353s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_destination__functions.c
+[11.353s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/lanelet_attribute__struct.h
+[11.354s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_bag_name__type_support.h
+[11.354s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/lanelet_attribute__functions.h
+[11.354s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_location__functions.h
+[11.354s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/attribute_dictionary__functions.h
+[11.354s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/blocked_lanelets__type_support.h
+[11.354s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_location__functions.c
+[11.354s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_destination__struct.h
+[11.354s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/attribute_dictionary__type_support.h
+[11.354s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/blocked_lanelets__functions.c
+[11.354s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_destination__type_support.h
+[11.354s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/lanelet_attribute__functions.c
+[11.354s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_bag_name__functions.c
+[11.354s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/attribute_dictionary__functions.c
+[11.355s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_destination__functions.h
+[11.355s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/lanelet_attribute__type_support.h
+[11.355s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_location__type_support.h
+[11.355s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/reroute.h
+[11.355s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/lanelet_attribute.h
+[11.355s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/environment/library_path.sh
+[11.355s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/environment/library_path.dsv
+[11.355s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/lib/libautodrive_msgs__rosidl_generator_c.so
+[11.356s] -- Set runtime path of "/root/ros2_ws/src/install/autodrive_msgs/lib/libautodrive_msgs__rosidl_generator_c.so" to ""
+[11.356s] -- Up-to-date: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs
+[11.356s] -- Up-to-date: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg
+[11.356s] -- Up-to-date: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail
+[11.356s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/detection__rosidl_typesupport_fastrtps_c.h
+[11.356s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/stack_state__rosidl_typesupport_fastrtps_c.h
+[11.356s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/direction__rosidl_typesupport_fastrtps_c.h
+[11.356s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/static_obstacle__rosidl_typesupport_fastrtps_c.h
+[11.356s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traj_point__rosidl_typesupport_fastrtps_c.h
+[11.356s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/wheel_velocities__rosidl_typesupport_fastrtps_c.h
+[11.356s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/destination__rosidl_typesupport_fastrtps_c.h
+[11.356s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/lllc__rosidl_typesupport_fastrtps_c.h
+[11.356s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/dynamic_obstacle__rosidl_typesupport_fastrtps_c.h
+[11.356s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/can_state__rosidl_typesupport_fastrtps_c.h
+[11.356s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/shared_pointer_reference__rosidl_typesupport_fastrtps_c.h
+[11.356s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/mpc_control__rosidl_typesupport_fastrtps_c.h
+[11.356s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/railroad_crossing__rosidl_typesupport_fastrtps_c.h
+[11.356s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/general_detection__rosidl_typesupport_fastrtps_c.h
+[11.356s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traffic_light__rosidl_typesupport_fastrtps_c.h
+[11.356s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/vehicle_state__rosidl_typesupport_fastrtps_c.h
+[11.356s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traffic_sign__rosidl_typesupport_fastrtps_c.h
+[11.356s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/location__rosidl_typesupport_fastrtps_c.h
+[11.357s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/av_condition__rosidl_typesupport_fastrtps_c.h
+[11.357s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/trajectory__rosidl_typesupport_fastrtps_c.h
+[11.357s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/speed_limit__rosidl_typesupport_fastrtps_c.h
+[11.357s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/turn_signal__rosidl_typesupport_fastrtps_c.h
+[11.357s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/stopline__rosidl_typesupport_fastrtps_c.h
+[11.357s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/manoeuvre__rosidl_typesupport_fastrtps_c.h
+[11.357s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/directions__rosidl_typesupport_fastrtps_c.h
+[11.357s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[11.357s] -- Up-to-date: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv
+[11.358s] -- Up-to-date: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail
+[11.358s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/attribute_dictionary__rosidl_typesupport_fastrtps_c.h
+[11.358s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_destination__rosidl_typesupport_fastrtps_c.h
+[11.358s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_location__rosidl_typesupport_fastrtps_c.h
+[11.358s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_bag_name__rosidl_typesupport_fastrtps_c.h
+[11.358s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/get_id__rosidl_typesupport_fastrtps_c.h
+[11.358s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/lanelet_attribute__rosidl_typesupport_fastrtps_c.h
+[11.358s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/blocked_lanelets__rosidl_typesupport_fastrtps_c.h
+[11.358s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/reroute__rosidl_typesupport_fastrtps_c.h
+[11.358s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/lib/libautodrive_msgs__rosidl_typesupport_fastrtps_c.so
+[11.358s] -- Set runtime path of "/root/ros2_ws/src/install/autodrive_msgs/lib/libautodrive_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[11.358s] -- Up-to-date: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs
+[11.358s] -- Up-to-date: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg
+[11.358s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/trajectory.hpp
+[11.358s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/mpc_control.hpp
+[11.359s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/traj_point.hpp
+[11.359s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/manoeuvre.hpp
+[11.359s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/lllc.hpp
+[11.359s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/destination.hpp
+[11.359s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/directions.hpp
+[11.359s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/av_condition.hpp
+[11.359s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/can_state.hpp
+[11.359s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/speed_limit.hpp
+[11.359s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/turn_signal.hpp
+[11.359s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/railroad_crossing.hpp
+[11.359s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/traffic_sign.hpp
+[11.359s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/static_obstacle.hpp
+[11.359s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/stopline.hpp
+[11.359s] -- Up-to-date: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail
+[11.359s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/trajectory__traits.hpp
+[11.360s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/general_detection__struct.hpp
+[11.360s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/direction__struct.hpp
+[11.360s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/can_state__traits.hpp
+[11.360s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/stack_state__builder.hpp
+[11.360s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traj_point__traits.hpp
+[11.360s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/destination__builder.hpp
+[11.360s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/wheel_velocities__struct.hpp
+[11.360s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traffic_light__struct.hpp
+[11.360s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/stack_state__type_support.hpp
+[11.360s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/trajectory__type_support.hpp
+[11.360s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/can_state__builder.hpp
+[11.360s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/railroad_crossing__traits.hpp
+[11.360s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/static_obstacle__traits.hpp
+[11.361s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/stack_state__struct.hpp
+[11.361s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/general_detection__builder.hpp
+[11.361s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/mpc_control__struct.hpp
+[11.361s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/directions__traits.hpp
+[11.361s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/direction__traits.hpp
+[11.361s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/dynamic_obstacle__struct.hpp
+[11.361s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/speed_limit__traits.hpp
+[11.361s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/shared_pointer_reference__traits.hpp
+[11.361s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/stopline__type_support.hpp
+[11.361s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/lllc__builder.hpp
+[11.362s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/stopline__builder.hpp
+[11.362s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/manoeuvre__type_support.hpp
+[11.362s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/shared_pointer_reference__struct.hpp
+[11.362s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/static_obstacle__builder.hpp
+[11.362s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/direction__type_support.hpp
+[11.362s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/turn_signal__type_support.hpp
+[11.362s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/wheel_velocities__builder.hpp
+[11.362s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/static_obstacle__type_support.hpp
+[11.362s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/can_state__type_support.hpp
+[11.362s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/stopline__struct.hpp
+[11.362s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/detection__builder.hpp
+[11.362s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traffic_sign__builder.hpp
+[11.362s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/directions__builder.hpp
+[11.362s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/vehicle_state__builder.hpp
+[11.362s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/manoeuvre__traits.hpp
+[11.363s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/detection__struct.hpp
+[11.363s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/wheel_velocities__traits.hpp
+[11.363s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/location__builder.hpp
+[11.363s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/dynamic_obstacle__traits.hpp
+[11.363s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/lllc__traits.hpp
+[11.363s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/shared_pointer_reference__type_support.hpp
+[11.363s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traj_point__builder.hpp
+[11.363s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traffic_light__type_support.hpp
+[11.363s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/turn_signal__builder.hpp
+[11.363s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/lllc__struct.hpp
+[11.363s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/detection__type_support.hpp
+[11.363s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/vehicle_state__traits.hpp
+[11.363s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/manoeuvre__struct.hpp
+[11.363s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traffic_light__traits.hpp
+[11.364s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/location__struct.hpp
+[11.364s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/trajectory__builder.hpp
+[11.364s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/railroad_crossing__struct.hpp
+[11.364s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/can_state__struct.hpp
+[11.364s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/vehicle_state__type_support.hpp
+[11.364s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/speed_limit__type_support.hpp
+[11.364s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/static_obstacle__struct.hpp
+[11.364s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traffic_light__builder.hpp
+[11.364s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/manoeuvre__builder.hpp
+[11.364s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/detection__traits.hpp
+[11.364s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traffic_sign__struct.hpp
+[11.364s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/directions__type_support.hpp
+[11.364s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/av_condition__traits.hpp
+[11.364s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/vehicle_state__struct.hpp
+[11.365s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traffic_sign__traits.hpp
+[11.365s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/av_condition__struct.hpp
+[11.365s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/direction__builder.hpp
+[11.365s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traffic_sign__type_support.hpp
+[11.365s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traj_point__struct.hpp
+[11.365s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/lllc__type_support.hpp
+[11.365s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/directions__struct.hpp
+[11.365s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/dynamic_obstacle__builder.hpp
+[11.365s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/destination__struct.hpp
+[11.365s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/stopline__traits.hpp
+[11.365s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/railroad_crossing__type_support.hpp
+[11.365s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/mpc_control__type_support.hpp
+[11.365s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/mpc_control__traits.hpp
+[11.365s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/destination__traits.hpp
+[11.365s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/turn_signal__struct.hpp
+[11.365s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/wheel_velocities__type_support.hpp
+[11.365s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/av_condition__type_support.hpp
+[11.366s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/stack_state__traits.hpp
+[11.366s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/trajectory__struct.hpp
+[11.366s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/location__type_support.hpp
+[11.366s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/destination__type_support.hpp
+[11.366s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traj_point__type_support.hpp
+[11.366s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/shared_pointer_reference__builder.hpp
+[11.366s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/railroad_crossing__builder.hpp
+[11.366s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/av_condition__builder.hpp
+[11.366s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/dynamic_obstacle__type_support.hpp
+[11.366s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/mpc_control__builder.hpp
+[11.366s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/location__traits.hpp
+[11.366s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/general_detection__traits.hpp
+[11.367s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/speed_limit__builder.hpp
+[11.367s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/speed_limit__struct.hpp
+[11.367s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/turn_signal__traits.hpp
+[11.367s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/general_detection__type_support.hpp
+[11.367s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/shared_pointer_reference.hpp
+[11.367s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detection.hpp
+[11.367s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/traffic_light.hpp
+[11.367s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/general_detection.hpp
+[11.367s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/location.hpp
+[11.367s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/dynamic_obstacle.hpp
+[11.368s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[11.368s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/wheel_velocities.hpp
+[11.368s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/vehicle_state.hpp
+[11.368s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/stack_state.hpp
+[11.368s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/direction.hpp
+[11.368s] -- Up-to-date: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv
+[11.368s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/attribute_dictionary.hpp
+[11.368s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/lanelet_attribute.hpp
+[11.368s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/set_location.hpp
+[11.368s] -- Up-to-date: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail
+[11.368s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_destination__traits.hpp
+[11.368s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/get_id__traits.hpp
+[11.368s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/get_id__type_support.hpp
+[11.368s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/reroute__type_support.hpp
+[11.368s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/attribute_dictionary__type_support.hpp
+[11.369s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/get_id__builder.hpp
+[11.369s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_bag_name__type_support.hpp
+[11.369s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_destination__builder.hpp
+[11.369s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_bag_name__builder.hpp
+[11.369s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_bag_name__traits.hpp
+[11.369s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/attribute_dictionary__traits.hpp
+[11.369s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/blocked_lanelets__type_support.hpp
+[11.369s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/reroute__builder.hpp
+[11.369s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/lanelet_attribute__struct.hpp
+[11.369s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/lanelet_attribute__traits.hpp
+[11.369s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/lanelet_attribute__builder.hpp
+[11.369s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_location__builder.hpp
+[11.369s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/blocked_lanelets__struct.hpp
+[11.369s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_destination__struct.hpp
+[11.369s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/blocked_lanelets__builder.hpp
+[11.369s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_location__traits.hpp
+[11.369s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_location__struct.hpp
+[11.370s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/reroute__struct.hpp
+[11.370s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/reroute__traits.hpp
+[11.370s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/lanelet_attribute__type_support.hpp
+[11.370s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_location__type_support.hpp
+[11.370s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/attribute_dictionary__builder.hpp
+[11.370s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/get_id__struct.hpp
+[11.370s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/attribute_dictionary__struct.hpp
+[11.370s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_destination__type_support.hpp
+[11.370s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_bag_name__struct.hpp
+[11.370s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/blocked_lanelets__traits.hpp
+[11.370s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/reroute.hpp
+[11.370s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/get_id.hpp
+[11.371s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/blocked_lanelets.hpp
+[11.371s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/set_destination.hpp
+[11.371s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/set_bag_name.hpp
+[11.371s] -- Up-to-date: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs
+[11.371s] -- Up-to-date: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg
+[11.371s] -- Up-to-date: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail
+[11.371s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/stack_state__rosidl_typesupport_fastrtps_cpp.hpp
+[11.371s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/shared_pointer_reference__rosidl_typesupport_fastrtps_cpp.hpp
+[11.371s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traj_point__rosidl_typesupport_fastrtps_cpp.hpp
+[11.371s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/manoeuvre__rosidl_typesupport_fastrtps_cpp.hpp
+[11.371s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/lllc__rosidl_typesupport_fastrtps_cpp.hpp
+[11.371s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/stopline__rosidl_typesupport_fastrtps_cpp.hpp
+[11.371s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/detection__rosidl_typesupport_fastrtps_cpp.hpp
+[11.372s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[11.372s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/railroad_crossing__rosidl_typesupport_fastrtps_cpp.hpp
+[11.372s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/mpc_control__rosidl_typesupport_fastrtps_cpp.hpp
+[11.372s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/speed_limit__rosidl_typesupport_fastrtps_cpp.hpp
+[11.372s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/av_condition__rosidl_typesupport_fastrtps_cpp.hpp
+[11.372s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/directions__rosidl_typesupport_fastrtps_cpp.hpp
+[11.372s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/dds_fastrtps
+[11.372s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traffic_sign__rosidl_typesupport_fastrtps_cpp.hpp
+[11.372s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/can_state__rosidl_typesupport_fastrtps_cpp.hpp
+[11.372s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/direction__rosidl_typesupport_fastrtps_cpp.hpp
+[11.373s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/vehicle_state__rosidl_typesupport_fastrtps_cpp.hpp
+[11.373s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/turn_signal__rosidl_typesupport_fastrtps_cpp.hpp
+[11.373s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traffic_light__rosidl_typesupport_fastrtps_cpp.hpp
+[11.373s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/general_detection__rosidl_typesupport_fastrtps_cpp.hpp
+[11.373s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/location__rosidl_typesupport_fastrtps_cpp.hpp
+[11.373s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/dynamic_obstacle__rosidl_typesupport_fastrtps_cpp.hpp
+[11.373s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/static_obstacle__rosidl_typesupport_fastrtps_cpp.hpp
+[11.373s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/destination__rosidl_typesupport_fastrtps_cpp.hpp
+[11.373s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/wheel_velocities__rosidl_typesupport_fastrtps_cpp.hpp
+[11.374s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[11.374s] -- Up-to-date: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv
+[11.374s] -- Up-to-date: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail
+[11.374s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_location__rosidl_typesupport_fastrtps_cpp.hpp
+[11.374s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/attribute_dictionary__rosidl_typesupport_fastrtps_cpp.hpp
+[11.374s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_destination__rosidl_typesupport_fastrtps_cpp.hpp
+[11.374s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_bag_name__rosidl_typesupport_fastrtps_cpp.hpp
+[11.374s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/dds_fastrtps
+[11.374s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/get_id__rosidl_typesupport_fastrtps_cpp.hpp
+[11.374s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/blocked_lanelets__rosidl_typesupport_fastrtps_cpp.hpp
+[11.374s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/reroute__rosidl_typesupport_fastrtps_cpp.hpp
+[11.374s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/lanelet_attribute__rosidl_typesupport_fastrtps_cpp.hpp
+[11.375s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/lib/libautodrive_msgs__rosidl_typesupport_fastrtps_cpp.so
+[11.375s] -- Set runtime path of "/root/ros2_ws/src/install/autodrive_msgs/lib/libautodrive_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[11.375s] -- Up-to-date: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs
+[11.375s] -- Up-to-date: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg
+[11.375s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[11.375s] -- Up-to-date: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail
+[11.375s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/wheel_velocities__type_support.c
+[11.375s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/vehicle_state__type_support.c
+[11.375s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/lllc__type_support.c
+[11.375s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/manoeuvre__rosidl_typesupport_introspection_c.h
+[11.375s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traffic_light__type_support.c
+[11.375s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/can_state__rosidl_typesupport_introspection_c.h
+[11.376s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/dynamic_obstacle__type_support.c
+[11.376s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/lllc__rosidl_typesupport_introspection_c.h
+[11.376s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/shared_pointer_reference__rosidl_typesupport_introspection_c.h
+[11.376s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/detection__rosidl_typesupport_introspection_c.h
+[11.376s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/trajectory__type_support.c
+[11.376s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/turn_signal__rosidl_typesupport_introspection_c.h
+[11.376s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/mpc_control__rosidl_typesupport_introspection_c.h
+[11.376s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/trajectory__rosidl_typesupport_introspection_c.h
+[11.376s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/direction__type_support.c
+[11.376s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/location__type_support.c
+[11.376s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traffic_sign__rosidl_typesupport_introspection_c.h
+[11.376s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/stopline__type_support.c
+[11.376s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/manoeuvre__type_support.c
+[11.376s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traffic_sign__type_support.c
+[11.376s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/detection__type_support.c
+[11.377s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/dynamic_obstacle__rosidl_typesupport_introspection_c.h
+[11.377s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/stopline__rosidl_typesupport_introspection_c.h
+[11.377s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traffic_light__rosidl_typesupport_introspection_c.h
+[11.377s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/directions__type_support.c
+[11.377s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/shared_pointer_reference__type_support.c
+[11.377s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traj_point__type_support.c
+[11.377s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/railroad_crossing__type_support.c
+[11.377s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/location__rosidl_typesupport_introspection_c.h
+[11.377s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/railroad_crossing__rosidl_typesupport_introspection_c.h
+[11.377s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/destination__type_support.c
+[11.377s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/wheel_velocities__rosidl_typesupport_introspection_c.h
+[11.377s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/destination__rosidl_typesupport_introspection_c.h
+[11.377s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/speed_limit__type_support.c
+[11.378s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/direction__rosidl_typesupport_introspection_c.h
+[11.378s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/general_detection__type_support.c
+[11.378s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traj_point__rosidl_typesupport_introspection_c.h
+[11.378s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/can_state__type_support.c
+[11.378s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/turn_signal__type_support.c
+[11.378s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/av_condition__type_support.c
+[11.378s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/vehicle_state__rosidl_typesupport_introspection_c.h
+[11.378s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/static_obstacle__rosidl_typesupport_introspection_c.h
+[11.378s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/static_obstacle__type_support.c
+[11.378s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/stack_state__rosidl_typesupport_introspection_c.h
+[11.378s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/stack_state__type_support.c
+[11.378s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/speed_limit__rosidl_typesupport_introspection_c.h
+[11.378s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/directions__rosidl_typesupport_introspection_c.h
+[11.378s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/av_condition__rosidl_typesupport_introspection_c.h
+[11.379s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/general_detection__rosidl_typesupport_introspection_c.h
+[11.379s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/mpc_control__type_support.c
+[11.379s] -- Up-to-date: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv
+[11.379s] -- Up-to-date: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail
+[11.379s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_location__rosidl_typesupport_introspection_c.h
+[11.379s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/reroute__rosidl_typesupport_introspection_c.h
+[11.379s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_destination__type_support.c
+[11.379s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/blocked_lanelets__type_support.c
+[11.379s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_location__type_support.c
+[11.379s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/attribute_dictionary__type_support.c
+[11.380s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/get_id__rosidl_typesupport_introspection_c.h
+[11.380s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/blocked_lanelets__rosidl_typesupport_introspection_c.h
+[11.380s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/attribute_dictionary__rosidl_typesupport_introspection_c.h
+[11.380s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/lanelet_attribute__rosidl_typesupport_introspection_c.h
+[11.380s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_destination__rosidl_typesupport_introspection_c.h
+[11.380s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/get_id__type_support.c
+[11.380s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/reroute__type_support.c
+[11.380s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_bag_name__type_support.c
+[11.380s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_bag_name__rosidl_typesupport_introspection_c.h
+[11.380s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/lanelet_attribute__type_support.c
+[11.380s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/lib/libautodrive_msgs__rosidl_typesupport_introspection_c.so
+[11.381s] -- Set runtime path of "/root/ros2_ws/src/install/autodrive_msgs/lib/libautodrive_msgs__rosidl_typesupport_introspection_c.so" to ""
+[11.381s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/lib/libautodrive_msgs__rosidl_typesupport_c.so
+[11.381s] -- Set runtime path of "/root/ros2_ws/src/install/autodrive_msgs/lib/libautodrive_msgs__rosidl_typesupport_c.so" to ""
+[11.381s] -- Up-to-date: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs
+[11.381s] -- Up-to-date: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg
+[11.381s] -- Up-to-date: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail
+[11.381s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/stopline__type_support.cpp
+[11.382s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/vehicle_state__rosidl_typesupport_introspection_cpp.hpp
+[11.382s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traffic_sign__rosidl_typesupport_introspection_cpp.hpp
+[11.382s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/location__type_support.cpp
+[11.382s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/general_detection__rosidl_typesupport_introspection_cpp.hpp
+[11.382s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traj_point__rosidl_typesupport_introspection_cpp.hpp
+[11.382s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traj_point__type_support.cpp
+[11.382s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/directions__rosidl_typesupport_introspection_cpp.hpp
+[11.382s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/stack_state__rosidl_typesupport_introspection_cpp.hpp
+[11.382s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/general_detection__type_support.cpp
+[11.382s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/manoeuvre__type_support.cpp
+[11.382s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/trajectory__rosidl_typesupport_introspection_cpp.hpp
+[11.382s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/static_obstacle__rosidl_typesupport_introspection_cpp.hpp
+[11.382s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/turn_signal__type_support.cpp
+[11.383s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traffic_light__type_support.cpp
+[11.383s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/shared_pointer_reference__type_support.cpp
+[11.383s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/location__rosidl_typesupport_introspection_cpp.hpp
+[11.383s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/stopline__rosidl_typesupport_introspection_cpp.hpp
+[11.383s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/detection__type_support.cpp
+[11.383s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/dynamic_obstacle__rosidl_typesupport_introspection_cpp.hpp
+[11.383s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/lllc__type_support.cpp
+[11.383s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/stack_state__type_support.cpp
+[11.383s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/directions__type_support.cpp
+[11.383s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/lllc__rosidl_typesupport_introspection_cpp.hpp
+[11.383s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/turn_signal__rosidl_typesupport_introspection_cpp.hpp
+[11.383s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/railroad_crossing__rosidl_typesupport_introspection_cpp.hpp
+[11.384s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/speed_limit__type_support.cpp
+[11.384s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/destination__type_support.cpp
+[11.384s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/static_obstacle__type_support.cpp
+[11.384s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/shared_pointer_reference__rosidl_typesupport_introspection_cpp.hpp
+[11.384s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/dynamic_obstacle__type_support.cpp
+[11.384s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/speed_limit__rosidl_typesupport_introspection_cpp.hpp
+[11.384s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/detection__rosidl_typesupport_introspection_cpp.hpp
+[11.384s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/can_state__type_support.cpp
+[11.384s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/destination__rosidl_typesupport_introspection_cpp.hpp
+[11.384s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/av_condition__type_support.cpp
+[11.384s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/direction__type_support.cpp
+[11.384s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traffic_sign__type_support.cpp
+[11.384s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/wheel_velocities__type_support.cpp
+[11.385s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/vehicle_state__type_support.cpp
+[11.385s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/mpc_control__type_support.cpp
+[11.385s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/traffic_light__rosidl_typesupport_introspection_cpp.hpp
+[11.385s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/direction__rosidl_typesupport_introspection_cpp.hpp
+[11.385s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/railroad_crossing__type_support.cpp
+[11.385s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/manoeuvre__rosidl_typesupport_introspection_cpp.hpp
+[11.385s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/can_state__rosidl_typesupport_introspection_cpp.hpp
+[11.385s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/av_condition__rosidl_typesupport_introspection_cpp.hpp
+[11.385s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/trajectory__type_support.cpp
+[11.385s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/mpc_control__rosidl_typesupport_introspection_cpp.hpp
+[11.385s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/msg/detail/wheel_velocities__rosidl_typesupport_introspection_cpp.hpp
+[11.385s] -- Up-to-date: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv
+[11.385s] -- Up-to-date: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail
+[11.385s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_destination__type_support.cpp
+[11.385s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/attribute_dictionary__rosidl_typesupport_introspection_cpp.hpp
+[11.386s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/blocked_lanelets__rosidl_typesupport_introspection_cpp.hpp
+[11.386s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/attribute_dictionary__type_support.cpp
+[11.386s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_location__rosidl_typesupport_introspection_cpp.hpp
+[11.386s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/reroute__rosidl_typesupport_introspection_cpp.hpp
+[11.386s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/get_id__rosidl_typesupport_introspection_cpp.hpp
+[11.386s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_bag_name__type_support.cpp
+[11.386s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/blocked_lanelets__type_support.cpp
+[11.386s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/reroute__type_support.cpp
+[11.386s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/lanelet_attribute__type_support.cpp
+[11.387s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_destination__rosidl_typesupport_introspection_cpp.hpp
+[11.387s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/lanelet_attribute__rosidl_typesupport_introspection_cpp.hpp
+[11.387s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_location__type_support.cpp
+[11.387s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/set_bag_name__rosidl_typesupport_introspection_cpp.hpp
+[11.387s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/include/autodrive_msgs/autodrive_msgs/srv/detail/get_id__type_support.cpp
+[11.387s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/lib/libautodrive_msgs__rosidl_typesupport_introspection_cpp.so
+[11.387s] -- Set runtime path of "/root/ros2_ws/src/install/autodrive_msgs/lib/libautodrive_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[11.387s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/lib/libautodrive_msgs__rosidl_typesupport_cpp.so
+[11.388s] -- Set runtime path of "/root/ros2_ws/src/install/autodrive_msgs/lib/libautodrive_msgs__rosidl_typesupport_cpp.so" to ""
+[11.388s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/environment/pythonpath.sh
+[11.388s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/environment/pythonpath.dsv
+[11.388s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs-0.0.0-py3.10.egg-info
+[11.388s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[11.388s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[11.388s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[11.388s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[11.388s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs
+[11.388s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/autodrive_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[11.388s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/_autodrive_msgs_s.ep.rosidl_typesupport_c.c
+[11.389s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg
+[11.389s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_wheel_velocities.py
+[11.389s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_trajectory_s.c
+[11.389s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_shared_pointer_reference_s.c
+[11.389s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_general_detection_s.c
+[11.389s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_traj_point_s.c
+[11.389s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_destination_s.c
+[11.389s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_lllc.py
+[11.389s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_directions.py
+[11.389s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_destination.py
+[11.389s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_lllc_s.c
+[11.389s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_traffic_sign_s.c
+[11.390s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_manoeuvre_s.c
+[11.390s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_general_detection.py
+[11.390s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_stopline.py
+[11.390s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_shared_pointer_reference.py
+[11.390s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_railroad_crossing_s.c
+[11.390s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_av_condition_s.c
+[11.390s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_speed_limit.py
+[11.390s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_turn_signal.py
+[11.390s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_dynamic_obstacle.py
+[11.390s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_stack_state.py
+[11.390s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_wheel_velocities_s.c
+[11.390s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/__init__.py
+[11.390s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_speed_limit_s.c
+[11.390s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_location.py
+[11.390s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_direction_s.c
+[11.390s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_railroad_crossing.py
+[11.391s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_detection.py
+[11.391s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_static_obstacle_s.c
+[11.391s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_direction.py
+[11.391s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_static_obstacle.py
+[11.391s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_av_condition.py
+[11.391s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_trajectory.py
+[11.391s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_location_s.c
+[11.391s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_traffic_light.py
+[11.391s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_traffic_sign.py
+[11.391s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_traffic_light_s.c
+[11.391s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_mpc_control_s.c
+[11.391s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_can_state.py
+[11.391s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_stack_state_s.c
+[11.391s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_vehicle_state.py
+[11.392s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_manoeuvre.py
+[11.392s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_stopline_s.c
+[11.392s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_traj_point.py
+[11.392s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_vehicle_state_s.c
+[11.392s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_dynamic_obstacle_s.c
+[11.392s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_directions_s.c
+[11.392s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_mpc_control.py
+[11.392s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_can_state_s.c
+[11.392s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_turn_signal_s.c
+[11.392s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_detection_s.c
+[11.392s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/_autodrive_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[11.392s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/autodrive_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[11.393s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/__init__.py
+[11.393s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/libautodrive_msgs__rosidl_generator_py.so
+[11.393s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/srv
+[11.393s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/srv/_set_destination_s.c
+[11.393s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/srv/_reroute_s.c
+[11.393s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/srv/_blocked_lanelets.py
+[11.393s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/srv/_lanelet_attribute.py
+[11.393s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/srv/_set_bag_name_s.c
+[11.393s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/srv/_get_id.py
+[11.393s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/srv/_set_destination.py
+[11.393s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/srv/__init__.py
+[11.393s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/srv/_get_id_s.c
+[11.393s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/srv/_lanelet_attribute_s.c
+[11.393s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/srv/_set_location.py
+[11.393s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/srv/_reroute.py
+[11.393s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/srv/_set_location_s.c
+[11.394s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/srv/_attribute_dictionary.py
+[11.394s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/srv/_blocked_lanelets_s.c
+[11.394s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/srv/_attribute_dictionary_s.c
+[11.394s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/srv/_set_bag_name.py
+[11.394s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/_autodrive_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[11.394s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/autodrive_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[11.428s] Listing '/root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs'...
+[11.428s] Compiling '/root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/__init__.py'...
+[11.428s] Listing '/root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg'...
+[11.428s] Compiling '/root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/__init__.py'...
+[11.428s] Compiling '/root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_av_condition.py'...
+[11.428s] Compiling '/root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_can_state.py'...
+[11.428s] Compiling '/root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_destination.py'...
+[11.429s] Compiling '/root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_detection.py'...
+[11.429s] Compiling '/root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_direction.py'...
+[11.429s] Compiling '/root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_directions.py'...
+[11.429s] Compiling '/root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_dynamic_obstacle.py'...
+[11.429s] Compiling '/root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_general_detection.py'...
+[11.429s] Compiling '/root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_lllc.py'...
+[11.429s] Compiling '/root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_location.py'...
+[11.429s] Compiling '/root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_manoeuvre.py'...
+[11.429s] Compiling '/root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_mpc_control.py'...
+[11.429s] Compiling '/root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_railroad_crossing.py'...
+[11.429s] Compiling '/root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_shared_pointer_reference.py'...
+[11.429s] Compiling '/root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_speed_limit.py'...
+[11.429s] Compiling '/root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_stack_state.py'...
+[11.429s] Compiling '/root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_static_obstacle.py'...
+[11.429s] Compiling '/root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_stopline.py'...
+[11.429s] Compiling '/root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_traffic_light.py'...
+[11.429s] Compiling '/root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_traffic_sign.py'...
+[11.429s] Compiling '/root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_traj_point.py'...
+[11.429s] Compiling '/root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_trajectory.py'...
+[11.429s] Compiling '/root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_turn_signal.py'...
+[11.429s] Compiling '/root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_vehicle_state.py'...
+[11.429s] Compiling '/root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/msg/_wheel_velocities.py'...
+[11.429s] Listing '/root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/srv'...
+[11.429s] Compiling '/root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/srv/__init__.py'...
+[11.429s] Compiling '/root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/srv/_attribute_dictionary.py'...
+[11.429s] Compiling '/root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/srv/_blocked_lanelets.py'...
+[11.429s] Compiling '/root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/srv/_get_id.py'...
+[11.429s] Compiling '/root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/srv/_lanelet_attribute.py'...
+[11.429s] Compiling '/root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/srv/_reroute.py'...
+[11.429s] Compiling '/root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/srv/_set_bag_name.py'...
+[11.429s] Compiling '/root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/srv/_set_destination.py'...
+[11.429s] Compiling '/root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/srv/_set_location.py'...
+[11.431s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/autodrive_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[11.431s] -- Set runtime path of "/root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/autodrive_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[11.431s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/autodrive_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[11.431s] -- Set runtime path of "/root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/autodrive_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[11.431s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/autodrive_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[11.432s] -- Set runtime path of "/root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages/autodrive_msgs/autodrive_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[11.432s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/lib/libautodrive_msgs__rosidl_generator_py.so
+[11.432s] -- Set runtime path of "/root/ros2_ws/src/install/autodrive_msgs/lib/libautodrive_msgs__rosidl_generator_py.so" to ""
+[11.432s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/msg/Detection.idl
+[11.432s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/msg/GeneralDetection.idl
+[11.432s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/msg/TrafficLight.idl
+[11.432s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/msg/Location.idl
+[11.432s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/msg/RailroadCrossing.idl
+[11.433s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/msg/Stopline.idl
+[11.433s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/msg/Trajectory.idl
+[11.433s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/msg/TrajPoint.idl
+[11.433s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/msg/SpeedLimit.idl
+[11.433s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/msg/DynamicObstacle.idl
+[11.433s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/msg/TrafficSign.idl
+[11.433s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/msg/VehicleState.idl
+[11.433s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/msg/StaticObstacle.idl
+[11.433s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/msg/Destination.idl
+[11.434s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/msg/SharedPointerReference.idl
+[11.434s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/msg/WheelVelocities.idl
+[11.434s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/msg/MPCControl.idl
+[11.434s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/srv/SetDestination.idl
+[11.434s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/srv/SetLocation.idl
+[11.434s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/srv/Reroute.idl
+[11.434s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/srv/LaneletAttribute.idl
+[11.434s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/srv/AttributeDictionary.idl
+[11.435s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/srv/GetId.idl
+[11.435s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/msg/CanState.idl
+[11.435s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/msg/Manoeuvre.idl
+[11.435s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/msg/Directions.idl
+[11.435s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/msg/Direction.idl
+[11.435s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/msg/TurnSignal.idl
+[11.435s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/srv/BlockedLanelets.idl
+[11.435s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/msg/AVCondition.idl
+[11.435s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/msg/LLLC.idl
+[11.435s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/srv/SetBagName.idl
+[11.435s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/msg/StackState.idl
+[11.435s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/msg/Detection.msg
+[11.435s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/msg/GeneralDetection.msg
+[11.435s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/msg/TrafficLight.msg
+[11.435s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/msg/Location.msg
+[11.435s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/msg/RailroadCrossing.msg
+[11.436s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/msg/Stopline.msg
+[11.436s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/msg/Trajectory.msg
+[11.436s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/msg/TrajPoint.msg
+[11.436s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/msg/SpeedLimit.msg
+[11.436s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/msg/DynamicObstacle.msg
+[11.436s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/msg/TrafficSign.msg
+[11.436s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/msg/VehicleState.msg
+[11.436s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/msg/StaticObstacle.msg
+[11.436s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/msg/Destination.msg
+[11.436s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/msg/SharedPointerReference.msg
+[11.436s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/msg/WheelVelocities.msg
+[11.436s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/msg/MPCControl.msg
+[11.437s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/srv/SetDestination.srv
+[11.437s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/srv/SetDestination_Request.msg
+[11.437s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/srv/SetDestination_Response.msg
+[11.437s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/srv/SetLocation.srv
+[11.437s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/srv/SetLocation_Request.msg
+[11.437s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/srv/SetLocation_Response.msg
+[11.437s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/srv/Reroute.srv
+[11.437s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/srv/Reroute_Request.msg
+[11.437s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/srv/Reroute_Response.msg
+[11.437s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/srv/LaneletAttribute.srv
+[11.437s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/srv/LaneletAttribute_Request.msg
+[11.437s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/srv/LaneletAttribute_Response.msg
+[11.437s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/srv/AttributeDictionary.srv
+[11.437s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/srv/AttributeDictionary_Request.msg
+[11.437s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/srv/AttributeDictionary_Response.msg
+[11.437s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/srv/GetId.srv
+[11.438s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/srv/GetId_Request.msg
+[11.438s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/srv/GetId_Response.msg
+[11.438s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/msg/CanState.msg
+[11.438s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/msg/Manoeuvre.msg
+[11.438s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/msg/Directions.msg
+[11.438s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/msg/Direction.msg
+[11.438s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/msg/TurnSignal.msg
+[11.438s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/srv/BlockedLanelets.srv
+[11.438s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/srv/BlockedLanelets_Request.msg
+[11.438s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/srv/BlockedLanelets_Response.msg
+[11.438s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/msg/AVCondition.msg
+[11.438s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/msg/LLLC.msg
+[11.438s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/srv/SetBagName.srv
+[11.438s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/srv/SetBagName_Request.msg
+[11.438s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/srv/SetBagName_Response.msg
+[11.438s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/msg/StackState.msg
+[11.439s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/ament_index/resource_index/package_run_dependencies/autodrive_msgs
+[11.439s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/ament_index/resource_index/parent_prefix_path/autodrive_msgs
+[11.439s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/environment/ament_prefix_path.sh
+[11.439s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/environment/ament_prefix_path.dsv
+[11.439s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/environment/path.sh
+[11.439s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/environment/path.dsv
+[11.439s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/local_setup.bash
+[11.439s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/local_setup.sh
+[11.440s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/local_setup.zsh
+[11.440s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/local_setup.dsv
+[11.440s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/package.dsv
+[11.440s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/ament_index/resource_index/packages/autodrive_msgs
+[11.440s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/cmake/export_autodrive_msgs__rosidl_generator_cExport.cmake
+[11.440s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/cmake/export_autodrive_msgs__rosidl_generator_cExport-noconfig.cmake
+[11.440s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/cmake/export_autodrive_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[11.441s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/cmake/export_autodrive_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[11.441s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/cmake/export_autodrive_msgs__rosidl_generator_cppExport.cmake
+[11.441s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/cmake/export_autodrive_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[11.441s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/cmake/export_autodrive_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[11.441s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/cmake/autodrive_msgs__rosidl_typesupport_introspection_cExport.cmake
+[11.441s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/cmake/autodrive_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[11.441s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/cmake/autodrive_msgs__rosidl_typesupport_cExport.cmake
+[11.441s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/cmake/autodrive_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[11.441s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/cmake/autodrive_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[11.441s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/cmake/autodrive_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[11.441s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/cmake/autodrive_msgs__rosidl_typesupport_cppExport.cmake
+[11.441s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/cmake/autodrive_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[11.442s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/cmake/export_autodrive_msgs__rosidl_generator_pyExport.cmake
+[11.442s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/cmake/export_autodrive_msgs__rosidl_generator_pyExport-noconfig.cmake
+[11.442s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/cmake/rosidl_cmake-extras.cmake
+[11.442s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.442s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.442s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[11.442s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[11.442s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[11.442s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[11.442s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/cmake/autodrive_msgsConfig.cmake
+[11.442s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/cmake/autodrive_msgsConfig-version.cmake
+[11.442s] -- Installing: /root/ros2_ws/src/install/autodrive_msgs/share/autodrive_msgs/package.xml
+[11.444s] Invoked command in '/root/ros2_ws/src/build/autodrive_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/my_test_pkg:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/src/build/autodrive_msgs

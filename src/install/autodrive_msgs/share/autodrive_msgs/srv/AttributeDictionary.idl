@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from autodrive_msgs/srv/AttributeDictionary.srv
+// generated code does not contain a copyright notice
+
+
+module autodrive_msgs {
+  module srv {
+    struct AttributeDictionary_Request {
+      string attribute_key;
+
+      string attribute_val;
+    };
+    struct AttributeDictionary_Response {
+      sequence<uint64> lanelet_ids;
+
+      string error_msg;
+
+      boolean error;
+    };
+  };
+};

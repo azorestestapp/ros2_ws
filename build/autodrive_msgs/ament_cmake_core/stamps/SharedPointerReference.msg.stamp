@@ -1,0 +1,3 @@
+string shared_pointer_key
+bool map_active
+bool graph_active

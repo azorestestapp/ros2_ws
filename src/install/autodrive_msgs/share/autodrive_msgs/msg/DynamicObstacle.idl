@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from autodrive_msgs/msg/DynamicObstacle.msg
+// generated code does not contain a copyright notice
+
+#include "autodrive_msgs/msg/GeneralDetection.idl"
+
+module autodrive_msgs {
+  module msg {
+    module DynamicObstacle_Constants {
+      const int8 VEHICLE = 0;
+      @verbatim (language="comment", text=
+        "not a hells angel")
+      const int8 BIKER = 1;
+      const int8 PEDESTRIAN = 2;
+      const int8 DEER = 3;
+      @verbatim (language="comment", text=
+        "soccer ball, garabage bag, stuff on road that shouldn't be there")
+      const int8 MISC = 4;
+    };
+    struct DynamicObstacle {
+      autodrive_msgs::msg::GeneralDetection detection;
+
+      int8 obstacle_type;
+
+      float dynamic_confidence;
+    };
+  };
+};

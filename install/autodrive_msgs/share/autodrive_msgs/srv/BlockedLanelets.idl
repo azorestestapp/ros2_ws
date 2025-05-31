@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from autodrive_msgs/srv/BlockedLanelets.srv
+// generated code does not contain a copyright notice
+
+
+module autodrive_msgs {
+  module srv {
+    struct BlockedLanelets_Request {
+      sequence<uint64> blocked;
+    };
+    struct BlockedLanelets_Response {
+      boolean error;
+    };
+  };
+};

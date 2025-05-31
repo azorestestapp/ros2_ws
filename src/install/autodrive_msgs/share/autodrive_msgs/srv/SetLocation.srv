@@ -1,0 +1,4 @@
+autodrive_msgs/Location location
+---
+string confirm
+bool error

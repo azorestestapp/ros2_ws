@@ -1,0 +1,87 @@
+running egg_info
+creating ../build/behaviour_planner_pkg/behaviour_planner_pkg.egg-info
+writing ../build/behaviour_planner_pkg/behaviour_planner_pkg.egg-info/PKG-INFO
+writing dependency_links to ../build/behaviour_planner_pkg/behaviour_planner_pkg.egg-info/dependency_links.txt
+writing entry points to ../build/behaviour_planner_pkg/behaviour_planner_pkg.egg-info/entry_points.txt
+writing requirements to ../build/behaviour_planner_pkg/behaviour_planner_pkg.egg-info/requires.txt
+writing top-level names to ../build/behaviour_planner_pkg/behaviour_planner_pkg.egg-info/top_level.txt
+writing manifest file '../build/behaviour_planner_pkg/behaviour_planner_pkg.egg-info/SOURCES.txt'
+reading manifest file '../build/behaviour_planner_pkg/behaviour_planner_pkg.egg-info/SOURCES.txt'
+writing manifest file '../build/behaviour_planner_pkg/behaviour_planner_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/ros2_ws/src/build/behaviour_planner_pkg/build
+creating /root/ros2_ws/src/build/behaviour_planner_pkg/build/lib
+creating /root/ros2_ws/src/build/behaviour_planner_pkg/build/lib/behaviour_planner_pkg
+copying behaviour_planner_pkg/behaviour_planner.py -> /root/ros2_ws/src/build/behaviour_planner_pkg/build/lib/behaviour_planner_pkg
+copying behaviour_planner_pkg/behaviour_tree.py -> /root/ros2_ws/src/build/behaviour_planner_pkg/build/lib/behaviour_planner_pkg
+copying behaviour_planner_pkg/speed_limit.py -> /root/ros2_ws/src/build/behaviour_planner_pkg/build/lib/behaviour_planner_pkg
+copying behaviour_planner_pkg/utilities.py -> /root/ros2_ws/src/build/behaviour_planner_pkg/build/lib/behaviour_planner_pkg
+copying behaviour_planner_pkg/simple_timer.py -> /root/ros2_ws/src/build/behaviour_planner_pkg/build/lib/behaviour_planner_pkg
+copying behaviour_planner_pkg/__init__.py -> /root/ros2_ws/src/build/behaviour_planner_pkg/build/lib/behaviour_planner_pkg
+copying behaviour_planner_pkg/dynamic_obstacle.py -> /root/ros2_ws/src/build/behaviour_planner_pkg/build/lib/behaviour_planner_pkg
+copying behaviour_planner_pkg/static_obstacle.py -> /root/ros2_ws/src/build/behaviour_planner_pkg/build/lib/behaviour_planner_pkg
+copying behaviour_planner_pkg/railroad_crossing.py -> /root/ros2_ws/src/build/behaviour_planner_pkg/build/lib/behaviour_planner_pkg
+copying behaviour_planner_pkg/traffic_light.py -> /root/ros2_ws/src/build/behaviour_planner_pkg/build/lib/behaviour_planner_pkg
+copying behaviour_planner_pkg/traffic_sign.py -> /root/ros2_ws/src/build/behaviour_planner_pkg/build/lib/behaviour_planner_pkg
+running install
+running install_lib
+creating /root/ros2_ws/src/install/behaviour_planner_pkg/lib/python3.10/site-packages/behaviour_planner_pkg
+copying /root/ros2_ws/src/build/behaviour_planner_pkg/build/lib/behaviour_planner_pkg/behaviour_planner.py -> /root/ros2_ws/src/install/behaviour_planner_pkg/lib/python3.10/site-packages/behaviour_planner_pkg
+copying /root/ros2_ws/src/build/behaviour_planner_pkg/build/lib/behaviour_planner_pkg/behaviour_tree.py -> /root/ros2_ws/src/install/behaviour_planner_pkg/lib/python3.10/site-packages/behaviour_planner_pkg
+copying /root/ros2_ws/src/build/behaviour_planner_pkg/build/lib/behaviour_planner_pkg/speed_limit.py -> /root/ros2_ws/src/install/behaviour_planner_pkg/lib/python3.10/site-packages/behaviour_planner_pkg
+copying /root/ros2_ws/src/build/behaviour_planner_pkg/build/lib/behaviour_planner_pkg/utilities.py -> /root/ros2_ws/src/install/behaviour_planner_pkg/lib/python3.10/site-packages/behaviour_planner_pkg
+copying /root/ros2_ws/src/build/behaviour_planner_pkg/build/lib/behaviour_planner_pkg/simple_timer.py -> /root/ros2_ws/src/install/behaviour_planner_pkg/lib/python3.10/site-packages/behaviour_planner_pkg
+copying /root/ros2_ws/src/build/behaviour_planner_pkg/build/lib/behaviour_planner_pkg/__init__.py -> /root/ros2_ws/src/install/behaviour_planner_pkg/lib/python3.10/site-packages/behaviour_planner_pkg
+copying /root/ros2_ws/src/build/behaviour_planner_pkg/build/lib/behaviour_planner_pkg/dynamic_obstacle.py -> /root/ros2_ws/src/install/behaviour_planner_pkg/lib/python3.10/site-packages/behaviour_planner_pkg
+copying /root/ros2_ws/src/build/behaviour_planner_pkg/build/lib/behaviour_planner_pkg/static_obstacle.py -> /root/ros2_ws/src/install/behaviour_planner_pkg/lib/python3.10/site-packages/behaviour_planner_pkg
+copying /root/ros2_ws/src/build/behaviour_planner_pkg/build/lib/behaviour_planner_pkg/railroad_crossing.py -> /root/ros2_ws/src/install/behaviour_planner_pkg/lib/python3.10/site-packages/behaviour_planner_pkg
+copying /root/ros2_ws/src/build/behaviour_planner_pkg/build/lib/behaviour_planner_pkg/traffic_light.py -> /root/ros2_ws/src/install/behaviour_planner_pkg/lib/python3.10/site-packages/behaviour_planner_pkg
+copying /root/ros2_ws/src/build/behaviour_planner_pkg/build/lib/behaviour_planner_pkg/traffic_sign.py -> /root/ros2_ws/src/install/behaviour_planner_pkg/lib/python3.10/site-packages/behaviour_planner_pkg
+byte-compiling /root/ros2_ws/src/install/behaviour_planner_pkg/lib/python3.10/site-packages/behaviour_planner_pkg/behaviour_planner.py to behaviour_planner.cpython-310.pyc
+byte-compiling /root/ros2_ws/src/install/behaviour_planner_pkg/lib/python3.10/site-packages/behaviour_planner_pkg/behaviour_tree.py to behaviour_tree.cpython-310.pyc
+byte-compiling /root/ros2_ws/src/install/behaviour_planner_pkg/lib/python3.10/site-packages/behaviour_planner_pkg/speed_limit.py to speed_limit.cpython-310.pyc
+byte-compiling /root/ros2_ws/src/install/behaviour_planner_pkg/lib/python3.10/site-packages/behaviour_planner_pkg/utilities.py to utilities.cpython-310.pyc
+byte-compiling /root/ros2_ws/src/install/behaviour_planner_pkg/lib/python3.10/site-packages/behaviour_planner_pkg/simple_timer.py to simple_timer.cpython-310.pyc
+byte-compiling /root/ros2_ws/src/install/behaviour_planner_pkg/lib/python3.10/site-packages/behaviour_planner_pkg/__init__.py to __init__.cpython-310.pyc
+byte-compiling /root/ros2_ws/src/install/behaviour_planner_pkg/lib/python3.10/site-packages/behaviour_planner_pkg/dynamic_obstacle.py to dynamic_obstacle.cpython-310.pyc
+  File "/root/ros2_ws/src/install/behaviour_planner_pkg/lib/python3.10/site-packages/behaviour_planner_pkg/dynamic_obstacle.py", line 342
+    DynamicObstacleCondition("dynamic_obstacle_is_misc", bt_instance, target_dynamic_obstacle_conditions=[
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+byte-compiling /root/ros2_ws/src/install/behaviour_planner_pkg/lib/python3.10/site-packages/behaviour_planner_pkg/static_obstacle.py to static_obstacle.cpython-310.pyc
+  File "/root/ros2_ws/src/install/behaviour_planner_pkg/lib/python3.10/site-packages/behaviour_planner_pkg/static_obstacle.py", line 104
+    StaticObstacleCondition("static_obstacle_is_bike_lane_protector", bt_instance, target_static_obstacle_conditions=[
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+byte-compiling /root/ros2_ws/src/install/behaviour_planner_pkg/lib/python3.10/site-packages/behaviour_planner_pkg/railroad_crossing.py to railroad_crossing.cpython-310.pyc
+  File "/root/ros2_ws/src/install/behaviour_planner_pkg/lib/python3.10/site-packages/behaviour_planner_pkg/railroad_crossing.py", line 58
+    SetSpeed("stop", bt_instance, 8.33, SpeedLimit.MPS, 15, start_ahead_distance=4) # param
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+byte-compiling /root/ros2_ws/src/install/behaviour_planner_pkg/lib/python3.10/site-packages/behaviour_planner_pkg/traffic_light.py to traffic_light.cpython-310.pyc
+  File "/root/ros2_ws/src/install/behaviour_planner_pkg/lib/python3.10/site-packages/behaviour_planner_pkg/traffic_light.py", line 75
+    SetSpeed("Set speed to zero", bt_instance, 0.0, SpeedLimit.MPH, 15, num_points=5, start_ahead_distance=15) # params
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+byte-compiling /root/ros2_ws/src/install/behaviour_planner_pkg/lib/python3.10/site-packages/behaviour_planner_pkg/traffic_sign.py to traffic_sign.cpython-310.pyc
+  File "/root/ros2_ws/src/install/behaviour_planner_pkg/lib/python3.10/site-packages/behaviour_planner_pkg/traffic_sign.py", line 183
+    SignCondition("sign_is_do_not_enter", bt_instance, target_sign_conditions=[
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+running install_data
+creating /root/ros2_ws/src/install/behaviour_planner_pkg/share/ament_index
+creating /root/ros2_ws/src/install/behaviour_planner_pkg/share/ament_index/resource_index
+creating /root/ros2_ws/src/install/behaviour_planner_pkg/share/ament_index/resource_index/packages
+copying resource/behaviour_planner_pkg -> /root/ros2_ws/src/install/behaviour_planner_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /root/ros2_ws/src/install/behaviour_planner_pkg/share/behaviour_planner_pkg
+running install_egg_info
+Copying ../build/behaviour_planner_pkg/behaviour_planner_pkg.egg-info to /root/ros2_ws/src/install/behaviour_planner_pkg/lib/python3.10/site-packages/behaviour_planner_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing behaviour_planner script to /root/ros2_ws/src/install/behaviour_planner_pkg/lib/behaviour_planner_pkg
+writing list of installed files to '/root/ros2_ws/src/build/behaviour_planner_pkg/install.log'

@@ -1,0 +1,9 @@
+std_msgs/Header header
+autodrive_msgs/GeneralDetection[] detection
+autodrive_msgs/DynamicObstacle[] dynamic_obstacles
+autodrive_msgs/StaticObstacle[] static_obstacles
+autodrive_msgs/RailroadCrossing[] railroad_crossings
+autodrive_msgs/TrafficLight[] traffic_lights
+autodrive_msgs/TrafficSign[] traffic_signs
+autodrive_msgs/SpeedLimit[] speed_limits
+autodrive_msgs/Stopline[] stop_lines

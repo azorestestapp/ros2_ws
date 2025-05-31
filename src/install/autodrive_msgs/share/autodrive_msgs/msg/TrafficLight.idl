@@ -1,0 +1,47 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from autodrive_msgs/msg/TrafficLight.msg
+// generated code does not contain a copyright notice
+
+#include "autodrive_msgs/msg/GeneralDetection.idl"
+
+module autodrive_msgs {
+  module msg {
+    module TrafficLight_Constants {
+      const int8 OFF = 0;
+      const int8 RED = 1;
+      const int8 YELLOW = 2;
+      const int8 GREEN = 3;
+      const int8 THREE_BULB = 0;
+      const int8 FOUR_BULB = 1;
+      const int8 DOGHOUSE = 2;
+      const int8 TRIANGLE = 3;
+    };
+    struct TrafficLight {
+      autodrive_msgs::msg::GeneralDetection detection;
+
+      sequence<uint64> corresponding_lane;
+
+      sequence<uint64> associated_light;
+
+      sequence<uint64> associated_stop_line;
+
+      int8 main_bulb;
+
+      float main_bulb_confidence;
+
+      int8 left_turn;
+
+      float left_bulb_confidence;
+
+      int8 right_turn;
+
+      float right_bulb_confidence;
+
+      boolean flashing;
+
+      int8 shape_category;
+
+      float shape_confidence;
+    };
+  };
+};

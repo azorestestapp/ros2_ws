@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from autodrive_msgs/msg/Stopline.msg
+// generated code does not contain a copyright notice
+
+#include "autodrive_msgs/msg/GeneralDetection.idl"
+
+module autodrive_msgs {
+  module msg {
+    struct Stopline {
+      autodrive_msgs::msg::GeneralDetection detection;
+
+      float stopline_confidence;
+    };
+  };
+};

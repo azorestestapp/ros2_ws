@@ -1,0 +1,46 @@
+[0.351s] Invoking command in '/root/ros2_ws/src/behaviour_planner_pkg': AMENT_PREFIX_PATH=/root/ros2_ws/src/install/autodrive_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/src/install/autodrive_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/root/ros2_ws/src/install/autodrive_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/src/build/behaviour_planner_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/src/install/behaviour_planner_pkg/lib/python3.10/site-packages:/root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/behaviour_planner_pkg build --build-base /root/ros2_ws/src/build/behaviour_planner_pkg/build install --record /root/ros2_ws/src/build/behaviour_planner_pkg/install.log --single-version-externally-managed install_data
+[0.487s] running egg_info
+[0.487s] writing ../build/behaviour_planner_pkg/behaviour_planner_pkg.egg-info/PKG-INFO
+[0.487s] writing dependency_links to ../build/behaviour_planner_pkg/behaviour_planner_pkg.egg-info/dependency_links.txt
+[0.487s] writing entry points to ../build/behaviour_planner_pkg/behaviour_planner_pkg.egg-info/entry_points.txt
+[0.487s] writing requirements to ../build/behaviour_planner_pkg/behaviour_planner_pkg.egg-info/requires.txt
+[0.487s] writing top-level names to ../build/behaviour_planner_pkg/behaviour_planner_pkg.egg-info/top_level.txt
+[0.488s] reading manifest file '../build/behaviour_planner_pkg/behaviour_planner_pkg.egg-info/SOURCES.txt'
+[0.488s] writing manifest file '../build/behaviour_planner_pkg/behaviour_planner_pkg.egg-info/SOURCES.txt'
+[0.488s] running build
+[0.489s] running build_py
+[0.489s] copying behaviour_planner_pkg/dynamic_obstacle.py -> /root/ros2_ws/src/build/behaviour_planner_pkg/build/lib/behaviour_planner_pkg
+[0.489s] copying behaviour_planner_pkg/static_obstacle.py -> /root/ros2_ws/src/build/behaviour_planner_pkg/build/lib/behaviour_planner_pkg
+[0.489s] copying behaviour_planner_pkg/railroad_crossing.py -> /root/ros2_ws/src/build/behaviour_planner_pkg/build/lib/behaviour_planner_pkg
+[0.489s] copying behaviour_planner_pkg/traffic_light.py -> /root/ros2_ws/src/build/behaviour_planner_pkg/build/lib/behaviour_planner_pkg
+[0.489s] copying behaviour_planner_pkg/traffic_sign.py -> /root/ros2_ws/src/build/behaviour_planner_pkg/build/lib/behaviour_planner_pkg
+[0.489s] running install
+[0.490s] running install_lib
+[0.490s] copying /root/ros2_ws/src/build/behaviour_planner_pkg/build/lib/behaviour_planner_pkg/dynamic_obstacle.py -> /root/ros2_ws/src/install/behaviour_planner_pkg/lib/python3.10/site-packages/behaviour_planner_pkg
+[0.490s] copying /root/ros2_ws/src/build/behaviour_planner_pkg/build/lib/behaviour_planner_pkg/static_obstacle.py -> /root/ros2_ws/src/install/behaviour_planner_pkg/lib/python3.10/site-packages/behaviour_planner_pkg
+[0.490s] copying /root/ros2_ws/src/build/behaviour_planner_pkg/build/lib/behaviour_planner_pkg/railroad_crossing.py -> /root/ros2_ws/src/install/behaviour_planner_pkg/lib/python3.10/site-packages/behaviour_planner_pkg
+[0.490s] copying /root/ros2_ws/src/build/behaviour_planner_pkg/build/lib/behaviour_planner_pkg/traffic_light.py -> /root/ros2_ws/src/install/behaviour_planner_pkg/lib/python3.10/site-packages/behaviour_planner_pkg
+[0.490s] copying /root/ros2_ws/src/build/behaviour_planner_pkg/build/lib/behaviour_planner_pkg/traffic_sign.py -> /root/ros2_ws/src/install/behaviour_planner_pkg/lib/python3.10/site-packages/behaviour_planner_pkg
+[0.491s] byte-compiling /root/ros2_ws/src/install/behaviour_planner_pkg/lib/python3.10/site-packages/behaviour_planner_pkg/dynamic_obstacle.py to dynamic_obstacle.cpython-310.pyc
+[0.492s] byte-compiling /root/ros2_ws/src/install/behaviour_planner_pkg/lib/python3.10/site-packages/behaviour_planner_pkg/static_obstacle.py to static_obstacle.cpython-310.pyc
+[0.492s]   File "/root/ros2_ws/src/install/behaviour_planner_pkg/lib/python3.10/site-packages/behaviour_planner_pkg/static_obstacle.py", line 116
+[0.492s]     StaticObstacleCondition("static_obstacle_is_speed_bump", bt_instance, target_static_obstacle_conditions=[
+[0.492s]     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0.492s] SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[0.492s] 
+[0.492s] byte-compiling /root/ros2_ws/src/install/behaviour_planner_pkg/lib/python3.10/site-packages/behaviour_planner_pkg/railroad_crossing.py to railroad_crossing.cpython-310.pyc
+[0.492s] byte-compiling /root/ros2_ws/src/install/behaviour_planner_pkg/lib/python3.10/site-packages/behaviour_planner_pkg/traffic_light.py to traffic_light.cpython-310.pyc
+[0.493s] byte-compiling /root/ros2_ws/src/install/behaviour_planner_pkg/lib/python3.10/site-packages/behaviour_planner_pkg/traffic_sign.py to traffic_sign.cpython-310.pyc
+[0.494s]   File "/root/ros2_ws/src/install/behaviour_planner_pkg/lib/python3.10/site-packages/behaviour_planner_pkg/traffic_sign.py", line 217
+[0.494s]     SignCondition("sign_is_no_u_turn", bt_instance, target_sign_conditions=[
+[0.494s]     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0.494s] SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[0.494s] 
+[0.494s] running install_data
+[0.494s] running install_egg_info
+[0.495s] removing '/root/ros2_ws/src/install/behaviour_planner_pkg/lib/python3.10/site-packages/behaviour_planner_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.495s] Copying ../build/behaviour_planner_pkg/behaviour_planner_pkg.egg-info to /root/ros2_ws/src/install/behaviour_planner_pkg/lib/python3.10/site-packages/behaviour_planner_pkg-0.0.0-py3.10.egg-info
+[0.495s] running install_scripts
+[0.506s] Installing behaviour_planner script to /root/ros2_ws/src/install/behaviour_planner_pkg/lib/behaviour_planner_pkg
+[0.506s] writing list of installed files to '/root/ros2_ws/src/build/behaviour_planner_pkg/install.log'
+[0.519s] Invoked command in '/root/ros2_ws/src/behaviour_planner_pkg' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/src/install/autodrive_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/src/install/autodrive_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/root/ros2_ws/src/install/autodrive_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/src/build/behaviour_planner_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/src/install/behaviour_planner_pkg/lib/python3.10/site-packages:/root/ros2_ws/src/install/autodrive_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/behaviour_planner_pkg build --build-base /root/ros2_ws/src/build/behaviour_planner_pkg/build install --record /root/ros2_ws/src/build/behaviour_planner_pkg/install.log --single-version-externally-managed install_data

@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-3977021661e807c552e0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "autodrive_msgs__py",
+					"jsonFile" : "directory-autodrive_msgs__py-b30a8daa27d8fd616f86.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/root/ros2_ws/src/build/autodrive_msgs/autodrive_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "autodrive_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_autodrive_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_autodrive_msgs_egg-65f2f66eb3b0558a1dbc.json",
+					"name" : "ament_cmake_python_build_autodrive_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_autodrive_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_autodrive_msgs-023d770ae602a332879a.json",
+					"name" : "ament_cmake_python_copy_autodrive_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autodrive_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autodrive_msgs-f2d7edc13fd4d3c9c7ce.json",
+					"name" : "autodrive_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autodrive_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autodrive_msgs__cpp-815a1620b573041b0329.json",
+					"name" : "autodrive_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "autodrive_msgs__py::@56a61e2ec92ef86a756e",
+					"jsonFile" : "target-autodrive_msgs__py-181834109001c24009fb.json",
+					"name" : "autodrive_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autodrive_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autodrive_msgs__rosidl_generator_c-3a43085d4300f98b9289.json",
+					"name" : "autodrive_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autodrive_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autodrive_msgs__rosidl_generator_py-021f31e722613629629c.json",
+					"name" : "autodrive_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autodrive_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autodrive_msgs__rosidl_typesupport_c-9ac8867bd5ac6b671d9f.json",
+					"name" : "autodrive_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autodrive_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autodrive_msgs__rosidl_typesupport_c__pyext-45b44d5242eeded3cf4a.json",
+					"name" : "autodrive_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autodrive_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autodrive_msgs__rosidl_typesupport_cpp-d2dabf927894d72ab540.json",
+					"name" : "autodrive_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autodrive_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autodrive_msgs__rosidl_typesupport_fastrtps_c-21479fcc474df08c27e7.json",
+					"name" : "autodrive_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autodrive_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autodrive_msgs__rosidl_typesupport_fastrtps_c__pyext-b81248f2288a3f6816d1.json",
+					"name" : "autodrive_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autodrive_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autodrive_msgs__rosidl_typesupport_fastrtps_cpp-59437ca1d8dacf340c92.json",
+					"name" : "autodrive_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autodrive_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autodrive_msgs__rosidl_typesupport_introspection_c-0c9b5f78a88e50de089c.json",
+					"name" : "autodrive_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autodrive_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autodrive_msgs__rosidl_typesupport_introspection_c__pyext-c3708bab8224c9a9aaf9.json",
+					"name" : "autodrive_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autodrive_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autodrive_msgs__rosidl_typesupport_introspection_cpp-41aa37330219b1d8d621.json",
+					"name" : "autodrive_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autodrive_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autodrive_msgs_uninstall-bb3b2604736832a6d6bf.json",
+					"name" : "autodrive_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-f8b3a070234263044b06.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/ros2_ws/src/build/autodrive_msgs",
+		"source" : "/root/ros2_ws/src/autodrive_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from autodrive_msgs/msg/CanState.msg
+// generated code does not contain a copyright notice
+
+
+module autodrive_msgs {
+  module msg {
+    module CanState_Constants {
+      const int8 STARTUP = 0;
+      const int8 PASSIVE = 1;
+      const int8 ACTIVATION_FAILURE = 2;
+      const int8 ACTIVATION_CONDITION_CHECK = 3;
+      const int8 BRAKE_ACTIVATION = 4;
+      const int8 WAIT_FOR_BRAKE_RELEASE = 5;
+      const int8 STEERING_ACTIVATION = 6;
+      const int8 PROPULSION_ACTIVATION = 7;
+      const int8 ACTIVE_MODE_LOOP = 8;
+      const int8 DEACTIVATION = 9;
+    };
+    struct CanState {
+      int8 state;
+    };
+  };
+};

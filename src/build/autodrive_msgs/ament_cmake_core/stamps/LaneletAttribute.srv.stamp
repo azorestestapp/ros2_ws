@@ -1,0 +1,7 @@
+uint64 lanelet_id
+string attribute_key
+---
+string attribute_val
+
+bool error
+string error_msg

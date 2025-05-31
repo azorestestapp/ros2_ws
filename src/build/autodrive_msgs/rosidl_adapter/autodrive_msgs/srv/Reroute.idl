@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from autodrive_msgs/srv/Reroute.srv
+// generated code does not contain a copyright notice
+
+
+module autodrive_msgs {
+  module srv {
+    struct Reroute_Request {
+      sequence<uint64> start_lanelet_id;
+
+      sequence<uint64> end_lanelet_id;
+    };
+    struct Reroute_Response {
+      string confirm;
+
+      boolean error;
+    };
+  };
+};

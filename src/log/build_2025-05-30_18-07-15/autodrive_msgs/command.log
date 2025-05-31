@@ -1,0 +1,1 @@
+Invoking command in '/root/ros2_ws/src/build/autodrive_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/my_test_pkg:/opt/ros/humble /opt/cmake-3.28.3-linux-x86_64/bin/cmake /root/ros2_ws/src/autodrive_msgs -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/install/autodrive_msgs

@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from autodrive_msgs/msg/Location.msg
+// generated code does not contain a copyright notice
+
+
+module autodrive_msgs {
+  module msg {
+    module Location_Constants {
+      const int8 INVALID = -2;
+      const int8 UNKNOWN = -1;
+      const int8 KCITY = 0;
+      const int8 MCITY = 1;
+      const int8 TOWN10 = 2;
+      const int8 TOWN13 = 3;
+      const int8 TOWN04 = 4;
+    };
+    struct Location {
+      int8 location;
+
+      @verbatim (language="comment", text=
+        "Reference points for ENU conversion")
+      double latitude;
+
+      double longitude;
+
+      double height;
+    };
+  };
+};

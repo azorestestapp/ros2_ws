@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from autodrive_msgs/msg/Manoeuvre.msg
+// generated code does not contain a copyright notice
+
+#include "autodrive_msgs/msg/Direction.idl"
+
+module autodrive_msgs {
+  module msg {
+    struct Manoeuvre {
+      autodrive_msgs::msg::Direction direction;
+    };
+  };
+};
