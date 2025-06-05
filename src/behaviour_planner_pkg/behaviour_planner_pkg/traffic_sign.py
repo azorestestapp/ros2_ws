@@ -95,6 +95,135 @@ class FourWayStopSignCondition(Behaviour):
 #         return Status.SUCCESS
 
 
+class four_way_object_intersection(Behaviour);
+    def __init__(self, name: str, bt_instance, look_ahead, timeout):
+        super(four_way_object_intersection, self).__init__(name)
+        self.bt_instance = bt_instance
+        self.look_ahead = look_ahead
+        self.timeout = timeout
+        self.last_intersection = None
+        self.dynamic_obstacle_flag_instance = DynamicObstacleFlag("four_way_flag", bt_instance, flag_name = "four_way_detection", value = False)
+
+    def setup(self):
+        self.logger.debug(f"{self.name}::setup")
+
+    def initialise(self):
+        self.logger.debug(f"{self.name}::initialise")
+
+        def update(self):
+        self.logger.debug(f"{self.name}::update")
+        car_path = self.bt_instance.path.points
+        car_path_coordinates = []
+        for point in car_path:
+            car_path_coordinates.append((point.east, point.north))
+
+        dynamic_obstacle_position_x = self.bt_instance.detection.detection.bounding_box.center.position.x
+        dynamic_obstacle_position_y = self.bt_instance.detection.detection.bounding_box.center.position.y
+        dynamic_obstacle_velocity_x = self.bt_instance.detection.detection.velocity.x
+        dynamic_obstacle_velocity_y = self.bt_instance.detection.detection.velocity.y
+
+        dynamic_obstacle_position_end_x = dynamic_obstacle_position_x + (dynamic_obstacle_velocity_x * self.look_ahead)
+        dynamic_obstacle_position_end_y = dynamic_obstacle_position_y + (dynamic_obstacle_velocity_y * self.look_ahead)
+
+        rclpy.logging.get_logger("behaviour_planner").info(f"Ped vel x: {dynamic_obstacle_velocity_x}, ped vel y: {dynamic_obstacle_velocity_y}")
+
+        pedestrian_path = [(dynamic_obstacle_position_x, dynamic_obstacle_position_y), (dynamic_obstacle_position_end_x, dynamic_obstacle_position_end_y)]
+
+        line_car = LineString(car_path_coordinates)
+        line_ped = LineString(pedestrian_path)
+
+        rclpy.logging.get_logger("behaviour_planner").info(f"Ped line: {line_ped}")
+
+        intersection = line_car.intersection(line_ped)
+
+        is_intersecting = True
+        if intersection.is_empty:
+            is_intersecting = False
+        elif isinstance(intersection, Point):
+            nearest_point = nearest_points(intersection, line_car)[1]
+        elif isinstance(intersection, MultiPoint):
+            # Choose the closest point to the start of the pedestrian path
+            intersection_points = list(intersection.geoms)
+            closest_point = min(intersection_points, key=lambda p: p.distance(Point(dynamic_obstacle_position_x, dynamic_obstacle_position_y)))
+            nearest_point = nearest_points(closest_point, line_car)[1]
+        elif isinstance(intersection, LineString):
+            # Take the midpoint of the intersecting line
+            nearest_point = intersection.interpolate(0.5, normalized=True)
+        else:
+            is_intersecting = False  # No valid intersection found
+
+        rclpy.logging.get_logger("behaviour_planner").info(f"Intersection: {intersection}, type: {type(intersection)}")
+
+        if is_intersecting:
+            self.last_intersection = time.time()
+            self.dynamic_obstacle_flag_instance.value = True
+       
+        elif self.last_intersection is not None and time.time() - self.last_intersection < self.timeout:
+            self.dynamic_obstacle_flag_instance.value = True
+  
+        else:
+            self.dynamic_obstacle_flag_instance.value = False
+        
+        if self.dynamic_obstacle_flag_instance = True:
+            return Status.RUNNING
+        elif self.dynamic_obstacle_flag_instance = False:
+            return Status.SUCCESS
+
+class four_way_creep(Behaviour):
+    def __init__(self, name, bt_instance, num_points, num_points_grace):
+        super(Creep, self).__init__(name)
+        self.bt_instance = bt_instance
+        self.bt_instance.yield_status = True
+        self.num_points = num_points
+        self.num_points_grace = num_points_grace
+        self.creep_end_index = -1
+        self.intersection_check = four_way_object_intersection("Check Intersection", bt_instance)
+
+    def setup(self):
+        self.logger.debug(f"Action::setup {self.name}")
+        self.intersection_check.setup()
+
+    def initialise(self):
+        self.logger.debug(f"Action::initialise {self.name}")
+        self.intersection_check.initialise()
+
+    def update(self):
+        self.logger.debug(f"Action::update {self.name}")
+
+        # Determines the point to creep until
+        if self.creep_end_index == -1:
+            self.original_points = self.bt_instance.path.points
+            for i in range(len(self.original_points)):
+                if self.original_points[i].lanelet_id in self.bt_instance.detection.corresponding_lane or self.original_points[i].lanelet_id in self.bt_instance.cached_lanelets:
+                    self.creep_end_index = i + self.num_points
+                    break
+        if self.creep_end_index == -1:
+            return Status.FAILURE
+        self.updated_points = self.bt_instance.path.points
+        creep_diag = KeyValue()
+        creep_diag.key = "Creep End Index"
+        creep_diag.value = f"{self.creep_end_index}"
+        self.bt_instance.custom_diag['creep_end_index'] = creep_diag
+        points_until_diag = KeyValue()
+        points_until_diag.key = "Points Until End"
+
+        # Return running while we have not reached the end of the creep zone
+        for i in range(len(self.updated_points)):
+            if self.updated_points[i].east == self.original_points[self.creep_end_index].east and self.updated_points[i].north == self.original_points[self.creep_end_index].north:
+                points_until_diag.value = f"{i}"
+                self.bt_instance.custom_diag['points_until'] = points_until_diag
+                # Often car doesn't stop right at the end of the creep zone so give a little grace zone where we consider ourselves "at the end"
+                if i < self.num_points_grace:
+                    return Status.SUCCESS
+                else:
+                    status = self.intersection_check.update()
+                    return Status.RUNNING
+        return Status.SUCCESS
+
+    def terminate(self, new_status):
+        self.logger.debug(f"Action::terminate {self.name} to {new_status}")
+        self.intersection_check.terminate(new_status)
+
 class SignCondition(Behaviour):
     def __init__(self, name: str, bt_instance, target_sign_conditions):
         super(SignCondition, self).__init__(name)
@@ -128,27 +257,24 @@ def get_stop_sign_tree(bt_instance):
     def get_four_way_tree():
         four_way_sequence = Sequence(name="four_way_sequence", memory=True)
 
-        creep_selector = Selector(name="creep_selector", memory=True)
-        creep_selector.add_children([
-            Creep("creep", bt_instance, 20, 3), # param
-            ResetYieldStatus("reset_yield_status", bt_instance)
-        ])
-
         four_way_sequence.add_children([
             # must be a four way stop sign
             FourWayStopSignCondition("four_way_stop_sign_condition", bt_instance),
+            # set dynamic obstacle detection flag to false
+            DynamicObstacleFlag("four_way_obstacle_detection", bt_instance, flag_name = "dynamic_obstacle_at_four_way", value = False),
             # reset speed 
             ResetSpeed("reset_speed", bt_instance),
             # decelerate to zero 
-            SetSpeed("set_speed", bt_instance, 0.0, SpeedLimit.MPS, 15, 25), # param
+            SetSpeed("set_speed", bt_instance, 0.0, SpeedLimit.MPS, 15, start_ahead_distance = 15), 
             # wait 2 seconds for extra waiting 
             timers.Timer("time_to_wait", 2.0), # param
-            # begin to slowly proceed (just because of the way we are doing this we must check for the yeild sign again)
-            creep_selector,
+            # check for detections
+            four_way_object_intersection("intersection_in_four_way", bt_instance, 7, 3.0),
+            # if none, creep
+            four_way_creep("creep", bt_instance, 20, 3),
             #reset speed
             ResetSpeed("reset_speed", bt_instance),
             # proceed 
-            SetSpeed("set_speed", bt_instance, 3.0, SpeedLimit.MPS, 15, 25),
             ProceedThroughLanelet("proceed_through_four_way_stop", bt_instance, bt_instance.detection.corresponding_lane)
         ])
         return four_way_sequence
@@ -161,7 +287,7 @@ def get_stop_sign_tree(bt_instance):
     ])
 
     stop_selector.add_children([
-        get_four_way_tree(),
+        four_way_sequence,
         non_four_way_sequence
     ])
 

@@ -29,6 +29,24 @@ VEHICLE_SIZE_X = 2.395890 * 2
 VEHICLE_SIZE_Y = 1.081725 * 2
 VEHICLE_SIZE_Z = 0.743830 * 2
 
+class DynamicObstacleFlag(Behaviour):
+    def __init__(self,  name: str, bt_instance, flag_name: str, value = False):
+        super(DynamicObstacleFlag, self).__init__(name)
+        self.bt_instance = bt_instance
+        self.flag_name = flag_name
+        self.value = value
+
+    def setup(self):
+        self.logger.debug(f"{self.name}::setup")
+
+    def initialise(self):
+        self.logger.debug(f"{self.name}::initialise")
+    
+    def update(self):
+        setattr(self.bt_instance, self.flag_name, self.value)
+        self.logger.debug(f"{self.name}: Set {self.flag_name} = {self.value}")
+        return Status.SUCCESS
+
 
 class SetCarFollowingSpeed(Behaviour):
     def __init__(self, name: str, bt_instance):
@@ -310,8 +328,11 @@ def get_dynamic_obstacle_pedestrian_tree(bt_instance):
         DynamicObstacleCondition("dynamic_obstacle_is_pedestrian", bt_instance, target_dynamic_obstacle_conditions=[
             DynamicObstacle.PEDESTRIAN
         ]),
+        # add flag
+        DynamicObstacleFlag("deer_flag_set", bt_instance, flag_name = "deer_detected", value = False),
         ResetSpeed("reset_speed", bt_instance),
         DynamicObstacleIntersectCondition("dynamic_obstacle_intersection_condition", bt_instance, 7, 3.0),
+        DynamicObstacleFlag("deer_flag_set", bt_instance, flag_name = "deer_detected", value = True),
         SetSpeedByPoint("set_speed_by_point", bt_instance, 0.0, SpeedLimit.MPS, start_ahead_distance=15),
         Placeholder("Stay running", Status.RUNNING)
     ])
@@ -325,10 +346,12 @@ def get_dynamic_obstacle_deer_tree(bt_instance):
         DynamicObstacleCondition("dynamic_obstacle_is_deer", bt_instance, target_dynamic_obstacle_conditions=[
             DynamicObstacle.DEER
         ]),
+        DynamicObstacleFlag("deer_flag_set", bt_instance, flag_name = "deer_detected", value = False),
         # second, we must get rid of any cached speed values for each point in our lane line 
         ResetSpeed("reset_speed", bt_instance),
         # third, we must check if the deer will in fact intersect our path so we can decide how to adjust our speed
         DynamicObstacleIntersectCondition("will_the_deer_intersect_us", bt_instance, 7, 3.0), # param
+        DynamicObstacleFlag("deer_flag_set", bt_instance, flag_name = "deer_detected", value = True),
         #fourth, we must adjust our speed at each point in our path 
         SetSpeedByPoint("set_speed_by_point", bt_instance, 0.0, SpeedLimit.MPS, start_ahead_distance=15), # param
         Placeholder("Stay running", Status.RUNNING)
@@ -342,10 +365,12 @@ def get_dynamic_obstacle_misc_tree(bt_instance):
         DynamicObstacleCondition("dynamic_obstacle_is_misc", bt_instance, target_dynamic_obstacle_conditions=[
             DynamicObstacle.MISC
         ]),
+        DynamicObstacleFlag("misc_flag_set", bt_instance, flag_name = "misc_detected", value = False),
         # reset speed
          ResetSpeed("reset_speed", bt_instance),
         # check intersection 
         DynamicObstacleIntersectCondition("dynamic_obstacle_intersection_condition", bt_instance, 7, 3.0), # param
+        DynamicObstacleFlag("misc_flag_set", bt_instance, flag_name = "misc_detected", value = True),
         # adjust speed 
         SetSpeedByPoint("set_speed_by_point", bt_instance, 0.0, SpeedLimit.MPS, start_ahead_distance=15), # param
         Placeholder("Stay running", Status.RUNNING)

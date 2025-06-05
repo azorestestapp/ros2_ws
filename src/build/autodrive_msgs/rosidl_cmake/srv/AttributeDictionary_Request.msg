@@ -1,2 +1,0 @@
-string attribute_key
-string attribute_val

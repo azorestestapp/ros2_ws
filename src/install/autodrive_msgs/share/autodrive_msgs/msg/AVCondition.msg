@@ -1,2 +1,0 @@
-string condition
-bool passed

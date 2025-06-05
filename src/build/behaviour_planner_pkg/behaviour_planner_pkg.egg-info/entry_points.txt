@@ -1,3 +1,0 @@
-[console_scripts]
-behaviour_planner = behaviour_planner_pkg.behaviour_planner:main
-

@@ -1,6 +1,6 @@
 import rclpy
 from rclpy.node import Node
-from autodrive_msgs.msg import Detection, GeneralDetection, DynamicObstacle, StaticObstacle, RailroadCrossing, TrafficLight, TrafficSign, Trajectory, SpeedLimit
+from autodrive_msgs.msg import Detection, GeneralDetection, DynamicObstacle, StaticObstacle, RailroadCrossing, TrafficLight, TrafficSign, Trajectory, SpeedLimit, TrajPoint 
 from autodrive_msgs.srv import GetId, Reroute
 from std_msgs.msg import Float64
 from std_msgs.msg import Float64, String
@@ -10,9 +10,14 @@ import time
 class Railroad_Publisher(Node) :
     def __init__(self) :
         super().__init__('railroad_publisher')
-        self.publisher_ = self.create_publisher(Detection, 'detections', 10)
+        
+        self.detection_publisher = self.create_publisher(Detection, 'detections', 10)
+        self.path_publisher = self.create_publisher(Trajectory, 'path', 10)
+        
         timer_period = 0.5
         self.timer = self.create_timer(timer_period, self.timer_callback)
+
+    
 
 
     def timer_callback(self) :
@@ -22,8 +27,31 @@ class Railroad_Publisher(Node) :
         railroad.active = True
         railroad.bar_activity_confidence = 1.0
         msg.railroad_crossings.append(railroad)
-        self.publisher_.publish(msg)
+        self.detection_publisher.publish(msg)
         self.get_logger().info('Publishing: active')
+
+        traj_msg = Trajectory()
+        traj_msg.header = Header()
+        traj_msg.header.stamp = self.get_clock().now().to_msg()
+        traj_msg.header.frame_id = 'map'
+
+         # Create a sample TrajPoint
+        point = TrajPoint()
+        point.east = 10.0
+        point.north = 5.0
+        point.speed = 2.5
+        point.lanelet_id = 1234
+        
+        direction = Direction()
+        direction.type = Direction.STRAIGHT  
+        point.direction = direction
+
+        traj_msg.points.append(point)
+
+        self.path_publisher.publish(traj_msg)
+        self.get_logger().info('Publishing Trajectory with 1 point')
+
+        
 
 def main(args=None) :
     rclpy.init(args=args)
@@ -36,30 +64,31 @@ def main(args=None) :
         main()
 
 # same logic for four way light (flashing red/off)
-class FourWay_Sign_Publisher(Node):
-    def __init__(self):
-        super.__init__('fourway_sign_publisher')
-        self.publisher_ = self.create_publisher(Detection, 'detections', 10)
-        timer_period = 0.5
-        self.timer = self.create_timer(timer_period, self.timer_callback)
+# class FourWay_Sign_Publisher(Node):
+#     def __init__(self):
+#         super.__init__('fourway_sign_publisher')
+#         self.publisher_ = self.create_publisher(Detection, 'detections', 10)
+#         timer_period = 0.5
+#         self.timer = self.create_timer(timer_period, self.timer_callback)
 
-    def timer_callback(self) : 
-        msg = Detection()
-        four_way = TrafficSign()
-        four_way.sign_type = TrafficSign.STOP
-        msg.traffic_signs.append(four_way)
-        self.publisher_.publish(msg)
-        self.get_logger().info('Publishing: four way stop')
+#     def timer_callback(self) : 
+#         msg = Detection()
+#         four_way = TrafficSign()
+#         four_way.sign_type = TrafficSign.STOP
+#         msg.traffic_signs.append(four_way)
+#         self.publisher_.publish(msg)
+#         self.get_logger().info('Publishing: four way stop')
 
-def main(args=None) :
-    rclpy.init(args=args)
-    node = FourWay_Sign_Publisher()
-    rclpy.spin(node)
-    node.destroy_node()
-    rclpy.shutdown()
+# def main(args=None) :
+#     rclpy.init(args=args)
+#     node = FourWay_Sign_Publisher()
+#     rclpy.spin(node)
+#     node.destroy_node()
+#     rclpy.shutdown()
   
-    if __name__ == '__main__':
-        main()
+#     if __name__ == '__main__':
+#         main()
+
 
 
 

@@ -1,6 +1,0 @@
-string attribute_key
-string attribute_val
----
-uint64[] lanelet_ids
-string error_msg
-bool error

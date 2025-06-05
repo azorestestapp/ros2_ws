@@ -1,8 +1,0 @@
-int8 DEFAULT = 0
-int8 STRAIGHT = 1
-int8 LEFT_TURN = 2
-int8 RIGHT_TURN = 3
-int8 LEFT_LANE_CHANGE = 4
-int8 RIGHT_LANE_CHANGE = 5
-
-int8 type

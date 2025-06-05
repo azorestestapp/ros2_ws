@@ -1,5 +1,0 @@
-  File "/root/ros2_ws/src/install/behaviour_planner_pkg/lib/python3.10/site-packages/behaviour_planner_pkg/static_obstacle.py", line 139
-    StaticObstacleCondition("static_obstacle_is_misc", bt_instance, target_static_obstacle_conditions=[
-    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-SyntaxError: invalid syntax. Perhaps you forgot a comma?
-

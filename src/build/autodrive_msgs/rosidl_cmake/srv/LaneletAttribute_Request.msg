@@ -1,2 +1,0 @@
-uint64 lanelet_id
-string attribute_key

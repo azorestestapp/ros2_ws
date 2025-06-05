@@ -1,3 +1,0 @@
-
-string confirm
-bool error

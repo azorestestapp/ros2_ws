@@ -1,2 +1,0 @@
-uint64[] start_lanelet_id
-uint64[] end_lanelet_id

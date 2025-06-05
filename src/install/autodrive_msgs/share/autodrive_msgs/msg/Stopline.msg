@@ -1,2 +1,0 @@
-autodrive_msgs/GeneralDetection detection
-float32 stopline_confidence
