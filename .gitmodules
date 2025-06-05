@@ -1,0 +1,3 @@
+[submodule "src/behaviour_planner_pkg"]
+	path = src/behaviour_planner_pkg
+	url = git@github.com:queens-autodrive/behaviour_planner_pkg
